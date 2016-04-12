@@ -1,0 +1,2045 @@
+[
+  {
+    "GeographicalRegion":"Asia, Central",
+    "Country":"Armenia",
+    "CurrentPopulation":3002271,
+    "NumberOfCasesLow":74,
+    "NumberOfCasesHigh":74,
+    "NumberOfDeathsLow":0,
+    "NumberOfDeathsHigh":0
+  },
+  {
+    "GeographicalRegion":"Asia, Central",
+    "Country":"Azerbaijan",
+    "CurrentPopulation":8467167,
+    "NumberOfCasesLow":17,
+    "NumberOfCasesHigh":115,
+    "NumberOfDeathsLow":0.9,
+    "NumberOfDeathsHigh":4.4
+  },
+  {
+    "GeographicalRegion":"Asia, Central",
+    "Country":"Georgia",
+    "CurrentPopulation":4395420,
+    "NumberOfCasesLow":9,
+    "NumberOfCasesHigh":63,
+    "NumberOfDeathsLow":0,
+    "NumberOfDeathsHigh":0
+  },
+  {
+    "GeographicalRegion":"Asia, Central",
+    "Country":"Kazakhstan",
+    "CurrentPopulation":15421861,
+    "NumberOfCasesLow":32,
+    "NumberOfCasesHigh":186,
+    "NumberOfDeathsLow":0,
+    "NumberOfDeathsHigh":0
+  },
+  {
+    "GeographicalRegion":"Asia, Central",
+    "Country":"Kyrgyzstan",
+    "CurrentPopulation":5316543,
+    "NumberOfCasesLow":11,
+    "NumberOfCasesHigh":91,
+    "NumberOfDeathsLow":2.8,
+    "NumberOfDeathsHigh":2.8
+  },
+  {
+    "GeographicalRegion":"Asia, Central",
+    "Country":"Mongolia",
+    "CurrentPopulation":2628840,
+    "NumberOfCasesLow":5,
+    "NumberOfCasesHigh":32,
+    "NumberOfDeathsLow":0.3,
+    "NumberOfDeathsHigh":1.4
+  },
+  {
+    "GeographicalRegion":"Asia, Central",
+    "Country":"Tajikistan",
+    "CurrentPopulation":6735996,
+    "NumberOfCasesLow":14,
+    "NumberOfCasesHigh":125,
+    "NumberOfDeathsLow":0.7,
+    "NumberOfDeathsHigh":3.5
+  },
+  {
+    "GeographicalRegion":"Asia, Central",
+    "Country":"Turkmenistan",
+    "CurrentPopulation":4965278,
+    "NumberOfCasesLow":10,
+    "NumberOfCasesHigh":73,
+    "NumberOfDeathsLow":0.5,
+    "NumberOfDeathsHigh":2.6
+  },
+  {
+    "GeographicalRegion":"Asia, Central",
+    "Country":"Uzbekistan",
+    "CurrentPopulation":27372260,
+    "NumberOfCasesLow":56,
+    "NumberOfCasesHigh":453,
+    "NumberOfDeathsLow":3,
+    "NumberOfDeathsHigh":14.2
+  },
+  {
+    "GeographicalRegion":"Asia, East",
+    "Country":"China",
+    "CurrentPopulation":1336317116,
+    "NumberOfCasesLow":1136,
+    "NumberOfCasesHigh":212118,
+    "NumberOfDeathsLow":450,
+    "NumberOfDeathsHigh":4081
+  },
+  {
+    "GeographicalRegion":"Asia, East",
+    "Country":"DPR Korea",
+    "CurrentPopulation":23790245,
+    "NumberOfCasesLow":20,
+    "NumberOfCasesHigh":2359,
+    "NumberOfDeathsLow":0,
+    "NumberOfDeathsHigh":0
+  },
+  {
+    "GeographicalRegion":"Asia, East",
+    "Country":"Republic of Korea",
+    "CurrentPopulation":48223853,
+    "NumberOfCasesLow":"192",
+    "NumberOfCasesHigh":621,
+    "NumberOfDeathsLow":5,
+    "NumberOfDeathsHigh":5
+  },
+  {
+    "GeographicalRegion":"Asia, East",
+    "Country":"Hong Kong",
+    "CurrentPopulation":7057000,
+    "NumberOfCasesLow":"427",
+    "NumberOfCasesHigh":427,
+    "NumberOfDeathsLow":5.3,
+    "NumberOfDeathsHigh":176.4
+  },
+  {
+    "GeographicalRegion":"Asia, East",
+    "Country":"Japan",
+    "CurrentPopulation":127966709,
+    "NumberOfCasesLow":"509",
+    "NumberOfCasesHigh":2529,
+    "NumberOfDeathsLow":7.4,
+    "NumberOfDeathsHigh":13.3
+  },
+  {
+    "GeographicalRegion":"Asia, East",
+    "Country":"Taiwan",
+    "CurrentPopulation":22858872,
+    "NumberOfCasesLow":"2999",
+    "NumberOfCasesHigh":3769,
+    "NumberOfDeathsLow":7.2,
+    "NumberOfDeathsHigh":571.5
+  },
+  {
+    "GeographicalRegion":"Asia, South",
+    "Country":"Afghanistan",
+    "CurrentPopulation":27145275,
+    "NumberOfCasesLow":"687",
+    "NumberOfCasesHigh":128738,
+    "NumberOfDeathsLow":192.5,
+    "NumberOfDeathsHigh":1368.7
+  },
+  {
+    "GeographicalRegion":"Asia, South",
+    "Country":"Bangladesh",
+    "CurrentPopulation":158664959,
+    "NumberOfCasesLow":"4014",
+    "NumberOfCasesHigh":8280,
+    "NumberOfDeathsLow":1680,
+    "NumberOfDeathsHigh":8000
+  },
+  {
+    "GeographicalRegion":"Asia, South",
+    "Country":"Bhutan",
+    "CurrentPopulation":658479,
+    "NumberOfCasesLow":"2458",
+    "NumberOfCasesHigh":2977,
+    "NumberOfDeathsLow":4.7,
+    "NumberOfDeathsHigh":33.2
+  },
+  {
+    "GeographicalRegion":"Asia, South",
+    "Country":"India",
+    "CurrentPopulation":1169015509,
+    "NumberOfCasesLow":"81399",
+    "NumberOfCasesHigh":163051,
+    "NumberOfDeathsLow":10835,
+    "NumberOfDeathsHigh":15000
+  },
+  {
+    "GeographicalRegion":"Asia, South",
+    "Country":"Nepal",
+    "CurrentPopulation":28195994,
+    "NumberOfCasesLow":"19991",
+    "NumberOfCasesHigh":142727,
+    "NumberOfDeathsLow":200,
+    "NumberOfDeathsHigh":1000
+  },
+  {
+    "GeographicalRegion":"Asia, South",
+    "Country":"Pakistan",
+    "CurrentPopulation":163902405,
+    "NumberOfCasesLow":"12784",
+    "NumberOfCasesHigh":17578,
+    "NumberOfDeathsLow":1200,
+    "NumberOfDeathsHigh":8264.1
+  },
+  {
+    "GeographicalRegion":"Asia, South",
+    "Country":"Sri Lanka",
+    "CurrentPopulation":18963553,
+    "NumberOfCasesLow":"32902",
+    "NumberOfCasesHigh":32902,
+    "NumberOfDeathsLow":132.7,
+    "NumberOfDeathsHigh":948.2
+  },
+  {
+    "GeographicalRegion":"Asia, Southeast",
+    "Country":"Brunei Darussalam",
+    "CurrentPopulation":390056,
+    "NumberOfCasesLow":"2",
+    "NumberOfCasesHigh":6,
+    "NumberOfDeathsLow":0,
+    "NumberOfDeathsHigh":0
+  },
+  {
+    "GeographicalRegion":"Asia, Southeast",
+    "Country":"Cambodia",
+    "CurrentPopulation":14443679,
+    "NumberOfCasesLow":"794",
+    "NumberOfCasesHigh":21482,
+    "NumberOfDeathsLow":80,
+    "NumberOfDeathsHigh":722.2
+  },
+  {
+    "GeographicalRegion":"Asia, Southeast",
+    "Country":"Indonesia",
+    "CurrentPopulation":231626978,
+    "NumberOfCasesLow":"12739",
+    "NumberOfCasesHigh":214883,
+    "NumberOfDeathsLow":20,
+    "NumberOfDeathsHigh":11581.3
+  },
+  {
+    "GeographicalRegion":"Asia, Southeast",
+    "Country":"Laos",
+    "CurrentPopulation":5859393,
+    "NumberOfCasesLow":"322",
+    "NumberOfCasesHigh":8383,
+    "NumberOfDeathsLow":0.5,
+    "NumberOfDeathsHigh":293
+  },
+  {
+    "GeographicalRegion":"Asia, Southeast",
+    "Country":"Malaysia",
+    "CurrentPopulation":26571879,
+    "NumberOfCasesLow":"11812",
+    "NumberOfCasesHigh":23637,
+    "NumberOfDeathsLow":8,
+    "NumberOfDeathsHigh":79.7
+  },
+  {
+    "GeographicalRegion":"Asia, Southeast",
+    "Country":"Maldives",
+    "CurrentPopulation":305556,
+    "NumberOfCasesLow":"0",
+    "NumberOfCasesHigh":0,
+    "NumberOfDeathsLow":0,
+    "NumberOfDeathsHigh":0
+  },
+  {
+    "GeographicalRegion":"Asia, Southeast",
+    "Country":"Mauritius",
+    "CurrentPopulation":1261641,
+    "NumberOfCasesLow":"0",
+    "NumberOfCasesHigh":0,
+    "NumberOfDeathsLow":0,
+    "NumberOfDeathsHigh":0
+  },
+  {
+    "GeographicalRegion":"Asia, Southeast",
+    "Country":"Mayotte",
+    "CurrentPopulation":0,
+    "NumberOfCasesLow":"0",
+    "NumberOfCasesHigh":0,
+    "NumberOfDeathsLow":0,
+    "NumberOfDeathsHigh":0
+  },
+  {
+    "GeographicalRegion":"Asia, Southeast",
+    "Country":"Myanmar",
+    "CurrentPopulation":48798212,
+    "NumberOfCasesLow":"8832",
+    "NumberOfCasesHigh":14633,
+    "NumberOfDeathsLow":336.7,
+    "NumberOfDeathsHigh":649
+  },
+  {
+    "GeographicalRegion":"Asia, Southeast",
+    "Country":"Philippines",
+    "CurrentPopulation":87960117,
+    "NumberOfCasesLow":"4838",
+    "NumberOfCasesHigh":58989,
+    "NumberOfDeathsLow":200,
+    "NumberOfDeathsHigh":300
+  },
+  {
+    "GeographicalRegion":"Asia, Southeast",
+    "Country":"Seychelles",
+    "CurrentPopulation":86606,
+    "NumberOfCasesLow":"0",
+    "NumberOfCasesHigh":0,
+    "NumberOfDeathsLow":0,
+    "NumberOfDeathsHigh":0
+  },
+  {
+    "GeographicalRegion":"Asia, Southeast",
+    "Country":"Singapore",
+    "CurrentPopulation":4436281,
+    "NumberOfCasesLow":"0",
+    "NumberOfCasesHigh":0,
+    "NumberOfDeathsLow":0,
+    "NumberOfDeathsHigh":0
+  },
+  {
+    "GeographicalRegion":"Asia, Southeast",
+    "Country":"Thailand",
+    "CurrentPopulation":63883662,
+    "NumberOfCasesLow":"8465",
+    "NumberOfCasesHigh":9101,
+    "NumberOfDeathsLow":5,
+    "NumberOfDeathsHigh":94
+  },
+  {
+    "GeographicalRegion":"Asia, Southeast",
+    "Country":"Timor Leste",
+    "CurrentPopulation":1154775,
+    "NumberOfCasesLow":"64",
+    "NumberOfCasesHigh":1501,
+    "NumberOfDeathsLow":0.1,
+    "NumberOfDeathsHigh":57.7
+  },
+  {
+    "GeographicalRegion":"Asia, Southeast",
+    "Country":"Viet Nam",
+    "CurrentPopulation":87375196,
+    "NumberOfCasesLow":"29970",
+    "NumberOfCasesHigh":117583,
+    "NumberOfDeathsLow":6.8,
+    "NumberOfDeathsHigh":4368.8
+  },
+  {
+    "GeographicalRegion":"Australasia",
+    "Country":"Australia",
+    "CurrentPopulation":20743179,
+    "NumberOfCasesLow":"1099",
+    "NumberOfCasesHigh":1260,
+    "NumberOfDeathsLow":1.8,
+    "NumberOfDeathsHigh":4.1
+  },
+  {
+    "GeographicalRegion":"Australasia",
+    "Country":"New Zealand",
+    "CurrentPopulation":4178525,
+    "NumberOfCasesLow":"0",
+    "NumberOfCasesHigh":0,
+    "NumberOfDeathsLow":0,
+    "NumberOfDeathsHigh":0
+  },
+  {
+    "GeographicalRegion":"Oceania",
+    "Country":"American Samoa",
+    "CurrentPopulation":65000,
+    "NumberOfCasesLow":"0",
+    "NumberOfCasesHigh":0,
+    "NumberOfDeathsLow":0,
+    "NumberOfDeathsHigh":0
+  },
+  {
+    "GeographicalRegion":"Oceania",
+    "Country":"Cook Islands",
+    "CurrentPopulation":13325,
+    "NumberOfCasesLow":"0",
+    "NumberOfCasesHigh":0,
+    "NumberOfDeathsLow":0,
+    "NumberOfDeathsHigh":0
+  },
+  {
+    "GeographicalRegion":"Oceania",
+    "Country":"Fiji",
+    "CurrentPopulation":838698,
+    "NumberOfCasesLow":"0",
+    "NumberOfCasesHigh":0,
+    "NumberOfDeathsLow":0,
+    "NumberOfDeathsHigh":0
+  },
+  {
+    "GeographicalRegion":"Oceania",
+    "Country":"French Polynesia",
+    "CurrentPopulation":252000,
+    "NumberOfCasesLow":"0",
+    "NumberOfCasesHigh":0,
+    "NumberOfDeathsLow":0,
+    "NumberOfDeathsHigh":0
+  },
+  {
+    "GeographicalRegion":"Oceania",
+    "Country":"Guam",
+    "CurrentPopulation":168000,
+    "NumberOfCasesLow":"0",
+    "NumberOfCasesHigh":0,
+    "NumberOfDeathsLow":0,
+    "NumberOfDeathsHigh":0
+  },
+  {
+    "GeographicalRegion":"Oceania",
+    "Country":"Kiribati",
+    "CurrentPopulation":95067,
+    "NumberOfCasesLow":"0",
+    "NumberOfCasesHigh":0,
+    "NumberOfDeathsLow":0,
+    "NumberOfDeathsHigh":0
+  },
+  {
+    "GeographicalRegion":"Oceania",
+    "Country":"Marshall Islands",
+    "CurrentPopulation":59286,
+    "NumberOfCasesLow":"0",
+    "NumberOfCasesHigh":0,
+    "NumberOfDeathsLow":0,
+    "NumberOfDeathsHigh":0
+  },
+  {
+    "GeographicalRegion":"Oceania",
+    "Country":"Micronesia (Fed States)",
+    "CurrentPopulation":111117,
+    "NumberOfCasesLow":"6",
+    "NumberOfCasesHigh":60,
+    "NumberOfDeathsLow":3.5,
+    "NumberOfDeathsHigh":7.2
+  },
+  {
+    "GeographicalRegion":"Oceania",
+    "Country":"Nauru",
+    "CurrentPopulation":10152,
+    "NumberOfCasesLow":"0",
+    "NumberOfCasesHigh":0,
+    "NumberOfDeathsLow":0,
+    "NumberOfDeathsHigh":0
+  },
+  {
+    "GeographicalRegion":"Oceania",
+    "Country":"New Caledonia",
+    "CurrentPopulation":237000,
+    "NumberOfCasesLow":"0",
+    "NumberOfCasesHigh":0,
+    "NumberOfDeathsLow":0,
+    "NumberOfDeathsHigh":0
+  },
+  {
+    "GeographicalRegion":"Oceania",
+    "Country":"Niue",
+    "CurrentPopulation":1565,
+    "NumberOfCasesLow":"0",
+    "NumberOfCasesHigh":1,
+    "NumberOfDeathsLow":0,
+    "NumberOfDeathsHigh":0.1
+  },
+  {
+    "GeographicalRegion":"Oceania",
+    "Country":"Northern Mariana Islands",
+    "CurrentPopulation":86000,
+    "NumberOfCasesLow":"0",
+    "NumberOfCasesHigh":0,
+    "NumberOfDeathsLow":0,
+    "NumberOfDeathsHigh":0
+  },
+  {
+    "GeographicalRegion":"Oceania",
+    "Country":"Palau",
+    "CurrentPopulation":20314,
+    "NumberOfCasesLow":"1",
+    "NumberOfCasesHigh":6,
+    "NumberOfDeathsLow":0.6,
+    "NumberOfDeathsHigh":1
+  },
+  {
+    "GeographicalRegion":"Oceania",
+    "Country":"Papua NG",
+    "CurrentPopulation":6331010,
+    "NumberOfCasesLow":"313",
+    "NumberOfCasesHigh":4051,
+    "NumberOfDeathsLow":200,
+    "NumberOfDeathsHigh":455.7
+  },
+  {
+    "GeographicalRegion":"Oceania",
+    "Country":"Pitcairn Islands",
+    "CurrentPopulation":0,
+    "NumberOfCasesLow":"0",
+    "NumberOfCasesHigh":0,
+    "NumberOfDeathsLow":0,
+    "NumberOfDeathsHigh":0
+  },
+  {
+    "GeographicalRegion":"Oceania",
+    "Country":"Samoa",
+    "CurrentPopulation":187023,
+    "NumberOfCasesLow":"0",
+    "NumberOfCasesHigh":0,
+    "NumberOfDeathsLow":0,
+    "NumberOfDeathsHigh":0
+  },
+  {
+    "GeographicalRegion":"Oceania",
+    "Country":"Solomon Islands",
+    "CurrentPopulation":495662,
+    "NumberOfCasesLow":"25",
+    "NumberOfCasesHigh":328,
+    "NumberOfDeathsLow":15.7,
+    "NumberOfDeathsHigh":36.5
+  },
+  {
+    "GeographicalRegion":"Oceania",
+    "Country":"Tokelau",
+    "CurrentPopulation":2000,
+    "NumberOfCasesLow":"0",
+    "NumberOfCasesHigh":0,
+    "NumberOfDeathsLow":0,
+    "NumberOfDeathsHigh":0
+  },
+  {
+    "GeographicalRegion":"Oceania",
+    "Country":"Tonga",
+    "CurrentPopulation":100336,
+    "NumberOfCasesLow":"5",
+    "NumberOfCasesHigh":54,
+    "NumberOfDeathsLow":0,
+    "NumberOfDeathsHigh":0
+  },
+  {
+    "GeographicalRegion":"Oceania",
+    "Country":"Tuvalu",
+    "CurrentPopulation":10530,
+    "NumberOfCasesLow":"0",
+    "NumberOfCasesHigh":0,
+    "NumberOfDeathsLow":0,
+    "NumberOfDeathsHigh":0
+  },
+  {
+    "GeographicalRegion":"Oceania",
+    "Country":"Vanuatu",
+    "CurrentPopulation":226180,
+    "NumberOfCasesLow":"11",
+    "NumberOfCasesHigh":135,
+    "NumberOfDeathsLow":7.1,
+    "NumberOfDeathsHigh":15.6
+  },
+  {
+    "GeographicalRegion":"Oceania",
+    "Country":"Wallis & Futuna islands",
+    "CurrentPopulation":15000,
+    "NumberOfCasesLow":"0",
+    "NumberOfCasesHigh":0,
+    "NumberOfDeathsLow":0,
+    "NumberOfDeathsHigh":0
+  },
+  {
+    "GeographicalRegion":"Europe, Central",
+    "Country":"Albania",
+    "CurrentPopulation":3190012,
+    "NumberOfCasesLow":"1",
+    "NumberOfCasesHigh":94,
+    "NumberOfDeathsLow":0,
+    "NumberOfDeathsHigh":0
+  },
+  {
+    "GeographicalRegion":"Europe, Central",
+    "Country":"Bosnia & Herzegovina",
+    "CurrentPopulation":3934816,
+    "NumberOfCasesLow":"12",
+    "NumberOfCasesHigh":67,
+    "NumberOfDeathsLow":0,
+    "NumberOfDeathsHigh":0
+  },
+  {
+    "GeographicalRegion":"Europe, Central",
+    "Country":"Bulgaria",
+    "CurrentPopulation":7638831,
+    "NumberOfCasesLow":"2",
+    "NumberOfCasesHigh":119,
+    "NumberOfDeathsLow":0,
+    "NumberOfDeathsHigh":0
+  },
+  {
+    "GeographicalRegion":"Europe, Central",
+    "Country":"Croatia",
+    "CurrentPopulation":4555398,
+    "NumberOfCasesLow":"26",
+    "NumberOfCasesHigh":108,
+    "NumberOfDeathsLow":1,
+    "NumberOfDeathsHigh":1
+  },
+  {
+    "GeographicalRegion":"Europe, Central",
+    "Country":"Czech Republic",
+    "CurrentPopulation":10186330,
+    "NumberOfCasesLow":"31",
+    "NumberOfCasesHigh":158,
+    "NumberOfDeathsLow":0.2,
+    "NumberOfDeathsHigh":2.2
+  },
+  {
+    "GeographicalRegion":"Europe, Central",
+    "Country":"Hungary",
+    "CurrentPopulation":10029683,
+    "NumberOfCasesLow":"3",
+    "NumberOfCasesHigh":174,
+    "NumberOfDeathsLow":0.2,
+    "NumberOfDeathsHigh":2.2
+  },
+  {
+    "GeographicalRegion":"Europe, Central",
+    "Country":"Montenegro",
+    "CurrentPopulation":597983,
+    "NumberOfCasesLow":"0",
+    "NumberOfCasesHigh":0,
+    "NumberOfDeathsLow":0,
+    "NumberOfDeathsHigh":0.1
+  },
+  {
+    "GeographicalRegion":"Europe, Central",
+    "Country":"Poland",
+    "CurrentPopulation":38081971,
+    "NumberOfCasesLow":"11",
+    "NumberOfCasesHigh":765,
+    "NumberOfDeathsLow":2.6,
+    "NumberOfDeathsHigh":8.4
+  },
+  {
+    "GeographicalRegion":"Europe, Central",
+    "Country":"Romania",
+    "CurrentPopulation":21437887,
+    "NumberOfCasesLow":"6",
+    "NumberOfCasesHigh":523,
+    "NumberOfDeathsLow":0,
+    "NumberOfDeathsHigh":0
+  },
+  {
+    "GeographicalRegion":"Europe, Central",
+    "Country":"Serbia",
+    "CurrentPopulation":9858424,
+    "NumberOfCasesLow":"3",
+    "NumberOfCasesHigh":262,
+    "NumberOfDeathsLow":1,
+    "NumberOfDeathsHigh":2.2
+  },
+  {
+    "GeographicalRegion":"Europe, Central",
+    "Country":"Slovakia",
+    "CurrentPopulation":5390035,
+    "NumberOfCasesLow":"9",
+    "NumberOfCasesHigh":124,
+    "NumberOfDeathsLow":0.6,
+    "NumberOfDeathsHigh":1.2
+  },
+  {
+    "GeographicalRegion":"Europe, Central",
+    "Country":"Slovenia",
+    "CurrentPopulation":2001506,
+    "NumberOfCasesLow":"1",
+    "NumberOfCasesHigh":51,
+    "NumberOfDeathsLow":0,
+    "NumberOfDeathsHigh":0
+  },
+  {
+    "GeographicalRegion":"Europe, Central",
+    "Country":"Macedonia",
+    "CurrentPopulation":2038464,
+    "NumberOfCasesLow":"1",
+    "NumberOfCasesHigh":44,
+    "NumberOfDeathsLow":0,
+    "NumberOfDeathsHigh":0
+  },
+  {
+    "GeographicalRegion":"Europe, Eastern",
+    "Country":"Belarus",
+    "CurrentPopulation":9688795,
+    "NumberOfCasesLow":"37",
+    "NumberOfCasesHigh":37,
+    "NumberOfDeathsLow":0,
+    "NumberOfDeathsHigh":0
+  },
+  {
+    "GeographicalRegion":"Europe, Eastern",
+    "Country":"Estonia",
+    "CurrentPopulation":1335333,
+    "NumberOfCasesLow":"5",
+    "NumberOfCasesHigh":5,
+    "NumberOfDeathsLow":0.4,
+    "NumberOfDeathsHigh":0.6
+  },
+  {
+    "GeographicalRegion":"Europe, Eastern",
+    "Country":"Latvia",
+    "CurrentPopulation":2277040,
+    "NumberOfCasesLow":"9",
+    "NumberOfCasesHigh":9,
+    "NumberOfDeathsLow":1,
+    "NumberOfDeathsHigh":1
+  },
+  {
+    "GeographicalRegion":"Europe, Eastern",
+    "Country":"Lithuania",
+    "CurrentPopulation":3389937,
+    "NumberOfCasesLow":"13",
+    "NumberOfCasesHigh":13,
+    "NumberOfDeathsLow":0.2,
+    "NumberOfDeathsHigh":1.5
+  },
+  {
+    "GeographicalRegion":"Europe, Eastern",
+    "Country":"Moldova",
+    "CurrentPopulation":3793604,
+    "NumberOfCasesLow":"14",
+    "NumberOfCasesHigh":14,
+    "NumberOfDeathsLow":0,
+    "NumberOfDeathsHigh":0
+  },
+  {
+    "GeographicalRegion":"Europe, Eastern",
+    "Country":"Russian Federation",
+    "CurrentPopulation":142498532,
+    "NumberOfCasesLow":"541",
+    "NumberOfCasesHigh":541,
+    "NumberOfDeathsLow":35,
+    "NumberOfDeathsHigh":62.6
+  },
+  {
+    "GeographicalRegion":"Europe, Eastern",
+    "Country":"Ukraine",
+    "CurrentPopulation":46205382,
+    "NumberOfCasesLow":"176",
+    "NumberOfCasesHigh":176,
+    "NumberOfDeathsLow":0,
+    "NumberOfDeathsHigh":0
+  },
+  {
+    "GeographicalRegion":"Europe, Western",
+    "Country":"Andorra",
+    "CurrentPopulation":74601,
+    "NumberOfCasesLow":"0",
+    "NumberOfCasesHigh":0,
+    "NumberOfDeathsLow":0,
+    "NumberOfDeathsHigh":0
+  },
+  {
+    "GeographicalRegion":"Europe, Western",
+    "Country":"Austria",
+    "CurrentPopulation":8360746,
+    "NumberOfCasesLow":"8",
+    "NumberOfCasesHigh":151,
+    "NumberOfDeathsLow":0,
+    "NumberOfDeathsHigh":0
+  },
+  {
+    "GeographicalRegion":"Europe, Western",
+    "Country":"Belgium",
+    "CurrentPopulation":10457343,
+    "NumberOfCasesLow":"0",
+    "NumberOfCasesHigh":0,
+    "NumberOfDeathsLow":0,
+    "NumberOfDeathsHigh":0
+  },
+  {
+    "GeographicalRegion":"Europe, Western",
+    "Country":"Channel Islands",
+    "CurrentPopulation":149000,
+    "NumberOfCasesLow":"0",
+    "NumberOfCasesHigh":0,
+    "NumberOfDeathsLow":0,
+    "NumberOfDeathsHigh":0
+  },
+  {
+    "GeographicalRegion":"Europe, Western",
+    "Country":"Cyprus",
+    "CurrentPopulation":854671,
+    "NumberOfCasesLow":"1",
+    "NumberOfCasesHigh":14,
+    "NumberOfDeathsLow":0,
+    "NumberOfDeathsHigh":0
+  },
+  {
+    "GeographicalRegion":"Europe, Western",
+    "Country":"Denmark",
+    "CurrentPopulation":5442098,
+    "NumberOfCasesLow":"5",
+    "NumberOfCasesHigh":45,
+    "NumberOfDeathsLow":1,
+    "NumberOfDeathsHigh":1
+  },
+  {
+    "GeographicalRegion":"Europe, Western",
+    "Country":"Faro Islands",
+    "CurrentPopulation":47000,
+    "NumberOfCasesLow":"0",
+    "NumberOfCasesHigh":0,
+    "NumberOfDeathsLow":0,
+    "NumberOfDeathsHigh":0
+  },
+  {
+    "GeographicalRegion":"Europe, Western",
+    "Country":"Finland",
+    "CurrentPopulation":5276892,
+    "NumberOfCasesLow":"201",
+    "NumberOfCasesHigh":229,
+    "NumberOfDeathsLow":1,
+    "NumberOfDeathsHigh":1
+  },
+  {
+    "GeographicalRegion":"Europe, Western",
+    "Country":"France",
+    "CurrentPopulation":61647375,
+    "NumberOfCasesLow":"1541",
+    "NumberOfCasesHigh":1880,
+    "NumberOfDeathsLow":1,
+    "NumberOfDeathsHigh":11.7
+  },
+  {
+    "GeographicalRegion":"Europe, Western",
+    "Country":"Germany",
+    "CurrentPopulation":82599471,
+    "NumberOfCasesLow":"74",
+    "NumberOfCasesHigh":561,
+    "NumberOfDeathsLow":0.4,
+    "NumberOfDeathsHigh":15.7
+  },
+  {
+    "GeographicalRegion":"Europe, Western",
+    "Country":"Gibraltar",
+    "CurrentPopulation":27000,
+    "NumberOfCasesLow":"0",
+    "NumberOfCasesHigh":0,
+    "NumberOfDeathsLow":0,
+    "NumberOfDeathsHigh":0
+  },
+  {
+    "GeographicalRegion":"Europe, Western",
+    "Country":"Greece",
+    "CurrentPopulation":11146918,
+    "NumberOfCasesLow":"10",
+    "NumberOfCasesHigh":228,
+    "NumberOfDeathsLow":0,
+    "NumberOfDeathsHigh":0
+  },
+  {
+    "GeographicalRegion":"Europe, Western",
+    "Country":"Greenland",
+    "CurrentPopulation":57000,
+    "NumberOfCasesLow":"0",
+    "NumberOfCasesHigh":0,
+    "NumberOfDeathsLow":0,
+    "NumberOfDeathsHigh":0
+  },
+  {
+    "GeographicalRegion":"Europe, Western",
+    "Country":"Holy See",
+    "CurrentPopulation":1000,
+    "NumberOfCasesLow":"0",
+    "NumberOfCasesHigh":0,
+    "NumberOfDeathsLow":0,
+    "NumberOfDeathsHigh":0
+  },
+  {
+    "GeographicalRegion":"Europe, Western",
+    "Country":"Iceland",
+    "CurrentPopulation":301006,
+    "NumberOfCasesLow":"0",
+    "NumberOfCasesHigh":0,
+    "NumberOfDeathsLow":0,
+    "NumberOfDeathsHigh":0
+  },
+  {
+    "GeographicalRegion":"Europe, Western",
+    "Country":"Ireland",
+    "CurrentPopulation":4300902,
+    "NumberOfCasesLow":"0",
+    "NumberOfCasesHigh":0,
+    "NumberOfDeathsLow":0,
+    "NumberOfDeathsHigh":0
+  },
+  {
+    "GeographicalRegion":"Europe, Western",
+    "Country":"Isle of Man",
+    "CurrentPopulation":78000,
+    "NumberOfCasesLow":"0",
+    "NumberOfCasesHigh":0,
+    "NumberOfDeathsLow":0,
+    "NumberOfDeathsHigh":0
+  },
+  {
+    "GeographicalRegion":"Europe, Western",
+    "Country":"Italy",
+    "CurrentPopulation":58876834,
+    "NumberOfCasesLow":"465",
+    "NumberOfCasesHigh":1290,
+    "NumberOfDeathsLow":0,
+    "NumberOfDeathsHigh":0
+  },
+  {
+    "GeographicalRegion":"Europe, Western",
+    "Country":"Liechtenstein",
+    "CurrentPopulation":34000,
+    "NumberOfCasesLow":"0",
+    "NumberOfCasesHigh":0,
+    "NumberOfDeathsLow":0,
+    "NumberOfDeathsHigh":0
+  },
+  {
+    "GeographicalRegion":"Europe, Western",
+    "Country":"Luxembourg",
+    "CurrentPopulation":466560,
+    "NumberOfCasesLow":"0",
+    "NumberOfCasesHigh":0,
+    "NumberOfDeathsLow":0,
+    "NumberOfDeathsHigh":0
+  },
+  {
+    "GeographicalRegion":"Europe, Western",
+    "Country":"Malta",
+    "CurrentPopulation":406582,
+    "NumberOfCasesLow":"0",
+    "NumberOfCasesHigh":0,
+    "NumberOfDeathsLow":0,
+    "NumberOfDeathsHigh":0
+  },
+  {
+    "GeographicalRegion":"Europe, Western",
+    "Country":"Monaco",
+    "CurrentPopulation":32711,
+    "NumberOfCasesLow":"0",
+    "NumberOfCasesHigh":0,
+    "NumberOfDeathsLow":0,
+    "NumberOfDeathsHigh":0
+  },
+  {
+    "GeographicalRegion":"Europe, Western",
+    "Country":"Netherlands",
+    "CurrentPopulation":16418824,
+    "NumberOfCasesLow":"15",
+    "NumberOfCasesHigh":293,
+    "NumberOfDeathsLow":0,
+    "NumberOfDeathsHigh":0
+  },
+  {
+    "GeographicalRegion":"Europe, Western",
+    "Country":"Norway",
+    "CurrentPopulation":4698097,
+    "NumberOfCasesLow":"40",
+    "NumberOfCasesHigh":79,
+    "NumberOfDeathsLow":0,
+    "NumberOfDeathsHigh":0
+  },
+  {
+    "GeographicalRegion":"Europe, Western",
+    "Country":"Portugal",
+    "CurrentPopulation":10623031,
+    "NumberOfCasesLow":"10",
+    "NumberOfCasesHigh":240,
+    "NumberOfDeathsLow":0,
+    "NumberOfDeathsHigh":0
+  },
+  {
+    "GeographicalRegion":"Europe, Western",
+    "Country":"San Marino",
+    "CurrentPopulation":6000,
+    "NumberOfCasesLow":"0",
+    "NumberOfCasesHigh":0,
+    "NumberOfDeathsLow":0,
+    "NumberOfDeathsHigh":0
+  },
+  {
+    "GeographicalRegion":"Europe, Western",
+    "Country":"San Pierre et Miquelon",
+    "CurrentPopulation":30926,
+    "NumberOfCasesLow":"0",
+    "NumberOfCasesHigh":0,
+    "NumberOfDeathsLow":0,
+    "NumberOfDeathsHigh":0
+  },
+  {
+    "GeographicalRegion":"Europe, Western",
+    "Country":"Spain",
+    "CurrentPopulation":44279180,
+    "NumberOfCasesLow":"112",
+    "NumberOfCasesHigh":597,
+    "NumberOfDeathsLow":0,
+    "NumberOfDeathsHigh":0
+  },
+  {
+    "GeographicalRegion":"Europe, Western",
+    "Country":"Sweden",
+    "CurrentPopulation":9118955,
+    "NumberOfCasesLow":"237",
+    "NumberOfCasesHigh":276,
+    "NumberOfDeathsLow":0.2,
+    "NumberOfDeathsHigh":1.7
+  },
+  {
+    "GeographicalRegion":"Europe, Western",
+    "Country":"Switzerland",
+    "CurrentPopulation":7483973,
+    "NumberOfCasesLow":"43",
+    "NumberOfCasesHigh":93,
+    "NumberOfDeathsLow":0.5,
+    "NumberOfDeathsHigh":1.4
+  },
+  {
+    "GeographicalRegion":"Europe, Western",
+    "Country":"United Kingdom",
+    "CurrentPopulation":60768946,
+    "NumberOfCasesLow":"200",
+    "NumberOfCasesHigh":522,
+    "NumberOfDeathsLow":0.4,
+    "NumberOfDeathsHigh":11.5
+  },
+  {
+    "GeographicalRegion":"North America",
+    "Country":"Canada",
+    "CurrentPopulation":32876047,
+    "NumberOfCasesLow":"260",
+    "NumberOfCasesHigh":372,
+    "NumberOfDeathsLow":0,
+    "NumberOfDeathsHigh":0
+  },
+  {
+    "GeographicalRegion":"North America",
+    "Country":"USA",
+    "CurrentPopulation":305826246,
+    "NumberOfCasesLow":"2422",
+    "NumberOfCasesHigh":3487,
+    "NumberOfDeathsLow":4.8,
+    "NumberOfDeathsHigh":7
+  },
+  {
+    "GeographicalRegion":"Latin America, Central",
+    "Country":"Colombia",
+    "CurrentPopulation":46155958,
+    "NumberOfCasesLow":"2340",
+    "NumberOfCasesHigh":2696,
+    "NumberOfDeathsLow":72.5,
+    "NumberOfDeathsHigh":345.1
+  },
+  {
+    "GeographicalRegion":"Latin America, Central",
+    "Country":"Costa-Rica",
+    "CurrentPopulation":4467625,
+    "NumberOfCasesLow":"572",
+    "NumberOfCasesHigh":695,
+    "NumberOfDeathsLow":3.8,
+    "NumberOfDeathsHigh":8.9
+  },
+  {
+    "GeographicalRegion":"Latin America, Central",
+    "Country":"El Salvador",
+    "CurrentPopulation":6857328,
+    "NumberOfCasesLow":"51",
+    "NumberOfCasesHigh":2122,
+    "NumberOfDeathsLow":3.1,
+    "NumberOfDeathsHigh":51.3
+  },
+  {
+    "GeographicalRegion":"Latin America, Central",
+    "Country":"Guatemala",
+    "CurrentPopulation":13353911,
+    "NumberOfCasesLow":"513",
+    "NumberOfCasesHigh":5715,
+    "NumberOfDeathsLow":6,
+    "NumberOfDeathsHigh":99.9
+  },
+  {
+    "GeographicalRegion":"Latin America, Central",
+    "Country":"Honduras",
+    "CurrentPopulation":7106001,
+    "NumberOfCasesLow":"510",
+    "NumberOfCasesHigh":3294,
+    "NumberOfDeathsLow":3.2,
+    "NumberOfDeathsHigh":53.1
+  },
+  {
+    "GeographicalRegion":"Latin America, Central",
+    "Country":"Mexico",
+    "CurrentPopulation":106534880,
+    "NumberOfCasesLow":"28056",
+    "NumberOfCasesHigh":41009,
+    "NumberOfDeathsLow":47.6,
+    "NumberOfDeathsHigh":796.6
+  },
+  {
+    "GeographicalRegion":"Latin America, Central",
+    "Country":"Nicaragua",
+    "CurrentPopulation":5603190,
+    "NumberOfCasesLow":"507",
+    "NumberOfCasesHigh":641,
+    "NumberOfDeathsLow":2.5,
+    "NumberOfDeathsHigh":41.9
+  },
+  {
+    "GeographicalRegion":"Latin America, Central",
+    "Country":"Panama",
+    "CurrentPopulation":3343374,
+    "NumberOfCasesLow":"2542",
+    "NumberOfCasesHigh":2542,
+    "NumberOfDeathsLow":17.4,
+    "NumberOfDeathsHigh":25
+  },
+  {
+    "GeographicalRegion":"Latin America, Central",
+    "Country":"Venezuela",
+    "CurrentPopulation":27656832,
+    "NumberOfCasesLow":"6997",
+    "NumberOfCasesHigh":8659,
+    "NumberOfDeathsLow":37,
+    "NumberOfDeathsHigh":38.8
+  },
+  {
+    "GeographicalRegion":"Latin America, Andean",
+    "Country":"Bolivia",
+    "CurrentPopulation":9524568,
+    "NumberOfCasesLow":"856",
+    "NumberOfCasesHigh":5500,
+    "NumberOfDeathsLow":100,
+    "NumberOfDeathsHigh":100
+  },
+  {
+    "GeographicalRegion":"Latin America, Andean",
+    "Country":"Ecuador",
+    "CurrentPopulation":13341197,
+    "NumberOfCasesLow":"1199",
+    "NumberOfCasesHigh":8189,
+    "NumberOfDeathsLow":42.6,
+    "NumberOfDeathsHigh":140.1
+  },
+  {
+    "GeographicalRegion":"Latin America, Andean",
+    "Country":"Peru",
+    "CurrentPopulation":27902760,
+    "NumberOfCasesLow":"4492",
+    "NumberOfCasesHigh":13963,
+    "NumberOfDeathsLow":100,
+    "NumberOfDeathsHigh":293
+  },
+  {
+    "GeographicalRegion":"Latin America, Southern",
+    "Country":"Argentina",
+    "CurrentPopulation":39531115,
+    "NumberOfCasesLow":"1957",
+    "NumberOfCasesHigh":1957,
+    "NumberOfDeathsLow":3.8,
+    "NumberOfDeathsHigh":3.8
+  },
+  {
+    "GeographicalRegion":"Latin America, Southern",
+    "Country":"Chile",
+    "CurrentPopulation":16634760,
+    "NumberOfCasesLow":"1",
+    "NumberOfCasesHigh":102,
+    "NumberOfDeathsLow":0.2,
+    "NumberOfDeathsHigh":1.6
+  },
+  {
+    "GeographicalRegion":"Latin America, Southern",
+    "Country":"Falkland Islands",
+    "CurrentPopulation":3000,
+    "NumberOfCasesLow":"0",
+    "NumberOfCasesHigh":0,
+    "NumberOfDeathsLow":0,
+    "NumberOfDeathsHigh":0
+  },
+  {
+    "GeographicalRegion":"Latin America, Southern",
+    "Country":"Uruguay",
+    "CurrentPopulation":3339700,
+    "NumberOfCasesLow":"100",
+    "NumberOfCasesHigh":105,
+    "NumberOfDeathsLow":0,
+    "NumberOfDeathsHigh":0
+  },
+  {
+    "GeographicalRegion":"Latin America, Tropical",
+    "Country":"Brazil",
+    "CurrentPopulation":191790929,
+    "NumberOfCasesLow":"29536",
+    "NumberOfCasesHigh":31274,
+    "NumberOfDeathsLow":93.5,
+    "NumberOfDeathsHigh":290
+  },
+  {
+    "GeographicalRegion":"Latin America, Tropical",
+    "Country":"Paraguay",
+    "CurrentPopulation":6127077,
+    "NumberOfCasesLow":"100",
+    "NumberOfCasesHigh":621,
+    "NumberOfDeathsLow":7,
+    "NumberOfDeathsHigh":9.3
+  },
+  {
+    "GeographicalRegion":"Caribbean",
+    "Country":"Anguilla",
+    "CurrentPopulation":12000,
+    "NumberOfCasesLow":"0",
+    "NumberOfCasesHigh":0,
+    "NumberOfDeathsLow":0,
+    "NumberOfDeathsHigh":0
+  },
+  {
+    "GeographicalRegion":"Caribbean",
+    "Country":"Antigua & Barbuda",
+    "CurrentPopulation":85109,
+    "NumberOfCasesLow":"0",
+    "NumberOfCasesHigh":0,
+    "NumberOfDeathsLow":0,
+    "NumberOfDeathsHigh":0
+  },
+  {
+    "GeographicalRegion":"Caribbean",
+    "Country":"Aruba",
+    "CurrentPopulation":103000,
+    "NumberOfCasesLow":"50",
+    "NumberOfCasesHigh":364,
+    "NumberOfDeathsLow":0.1,
+    "NumberOfDeathsHigh":55.1
+  },
+  {
+    "GeographicalRegion":"Caribbean",
+    "Country":"Bahamas",
+    "CurrentPopulation":331278,
+    "NumberOfCasesLow":"0",
+    "NumberOfCasesHigh":0,
+    "NumberOfDeathsLow":0,
+    "NumberOfDeathsHigh":0
+  },
+  {
+    "GeographicalRegion":"Caribbean",
+    "Country":"Barbados",
+    "CurrentPopulation":293891,
+    "NumberOfCasesLow":"0",
+    "NumberOfCasesHigh":0,
+    "NumberOfDeathsLow":0,
+    "NumberOfDeathsHigh":0
+  },
+  {
+    "GeographicalRegion":"Caribbean",
+    "Country":"Belize",
+    "CurrentPopulation":287699,
+    "NumberOfCasesLow":"51",
+    "NumberOfCasesHigh":884,
+    "NumberOfDeathsLow":0.4,
+    "NumberOfDeathsHigh":153.9
+  },
+  {
+    "GeographicalRegion":"Caribbean",
+    "Country":"Bermuda",
+    "CurrentPopulation":83000,
+    "NumberOfCasesLow":"0",
+    "NumberOfCasesHigh":0,
+    "NumberOfDeathsLow":0,
+    "NumberOfDeathsHigh":0
+  },
+  {
+    "GeographicalRegion":"Caribbean",
+    "Country":"British Virgin Islands",
+    "CurrentPopulation":22000,
+    "NumberOfCasesLow":"0",
+    "NumberOfCasesHigh":0,
+    "NumberOfDeathsLow":0,
+    "NumberOfDeathsHigh":0
+  },
+  {
+    "GeographicalRegion":"Caribbean",
+    "Country":"Cayman Islands",
+    "CurrentPopulation":43000,
+    "NumberOfCasesLow":"0",
+    "NumberOfCasesHigh":0,
+    "NumberOfDeathsLow":0,
+    "NumberOfDeathsHigh":0
+  },
+  {
+    "GeographicalRegion":"Caribbean",
+    "Country":"Cuba",
+    "CurrentPopulation":11267883,
+    "NumberOfCasesLow":"0",
+    "NumberOfCasesHigh":0,
+    "NumberOfDeathsLow":0,
+    "NumberOfDeathsHigh":0
+  },
+  {
+    "GeographicalRegion":"Caribbean",
+    "Country":"Dominica",
+    "CurrentPopulation":67390,
+    "NumberOfCasesLow":"0",
+    "NumberOfCasesHigh":0,
+    "NumberOfDeathsLow":0,
+    "NumberOfDeathsHigh":0
+  },
+  {
+    "GeographicalRegion":"Caribbean",
+    "Country":"Dominican Republic",
+    "CurrentPopulation":9759664,
+    "NumberOfCasesLow":"0",
+    "NumberOfCasesHigh":0,
+    "NumberOfDeathsLow":0,
+    "NumberOfDeathsHigh":0
+  },
+  {
+    "GeographicalRegion":"Caribbean",
+    "Country":"French Guiana",
+    "CurrentPopulation":187000,
+    "NumberOfCasesLow":"84",
+    "NumberOfCasesHigh":334,
+    "NumberOfDeathsLow":100,
+    "NumberOfDeathsHigh":100
+  },
+  {
+    "GeographicalRegion":"Caribbean",
+    "Country":"Grenada",
+    "CurrentPopulation":105672,
+    "NumberOfCasesLow":"0",
+    "NumberOfCasesHigh":0,
+    "NumberOfDeathsLow":0,
+    "NumberOfDeathsHigh":0
+  },
+  {
+    "GeographicalRegion":"Caribbean",
+    "Country":"Guadeloupe",
+    "CurrentPopulation":446000,
+    "NumberOfCasesLow":"0",
+    "NumberOfCasesHigh":0,
+    "NumberOfDeathsLow":0,
+    "NumberOfDeathsHigh":0
+  },
+  {
+    "GeographicalRegion":"Caribbean",
+    "Country":"Guyana",
+    "CurrentPopulation":737906,
+    "NumberOfCasesLow":"528",
+    "NumberOfCasesHigh":3017,
+    "NumberOfDeathsLow":4.3,
+    "NumberOfDeathsHigh":394.6
+  },
+  {
+    "GeographicalRegion":"Caribbean",
+    "Country":"Haiti",
+    "CurrentPopulation":9597849,
+    "NumberOfCasesLow":"0",
+    "NumberOfCasesHigh":0,
+    "NumberOfDeathsLow":0,
+    "NumberOfDeathsHigh":0
+  },
+  {
+    "GeographicalRegion":"Caribbean",
+    "Country":"Jamaica",
+    "CurrentPopulation":2713779,
+    "NumberOfCasesLow":"0",
+    "NumberOfCasesHigh":0,
+    "NumberOfDeathsLow":0,
+    "NumberOfDeathsHigh":0
+  },
+  {
+    "GeographicalRegion":"Caribbean",
+    "Country":"Martinique",
+    "CurrentPopulation":397000,
+    "NumberOfCasesLow":"20",
+    "NumberOfCasesHigh":21,
+    "NumberOfDeathsLow":0.6,
+    "NumberOfDeathsHigh":212.3
+  },
+  {
+    "GeographicalRegion":"Caribbean",
+    "Country":"Montserrat",
+    "CurrentPopulation":4000,
+    "NumberOfCasesLow":"0",
+    "NumberOfCasesHigh":0,
+    "NumberOfDeathsLow":0,
+    "NumberOfDeathsHigh":0
+  },
+  {
+    "GeographicalRegion":"Caribbean",
+    "Country":"Netherland Antilles",
+    "CurrentPopulation":224000,
+    "NumberOfCasesLow":"0",
+    "NumberOfCasesHigh":0,
+    "NumberOfDeathsLow":0,
+    "NumberOfDeathsHigh":0
+  },
+  {
+    "GeographicalRegion":"Caribbean",
+    "Country":"St. Kitts & Nevus",
+    "CurrentPopulation":50417,
+    "NumberOfCasesLow":"0",
+    "NumberOfCasesHigh":0,
+    "NumberOfDeathsLow":0,
+    "NumberOfDeathsHigh":0
+  },
+  {
+    "GeographicalRegion":"Caribbean",
+    "Country":"St. Lucia",
+    "CurrentPopulation":164924,
+    "NumberOfCasesLow":"4",
+    "NumberOfCasesHigh":640,
+    "NumberOfDeathsLow":0,
+    "NumberOfDeathsHigh":0
+  },
+  {
+    "GeographicalRegion":"Caribbean",
+    "Country":"St. Vincent & Grenadine",
+    "CurrentPopulation":120402,
+    "NumberOfCasesLow":"0",
+    "NumberOfCasesHigh":0,
+    "NumberOfDeathsLow":0,
+    "NumberOfDeathsHigh":0
+  },
+  {
+    "GeographicalRegion":"Caribbean",
+    "Country":"Suriname",
+    "CurrentPopulation":457964,
+    "NumberOfCasesLow":"327",
+    "NumberOfCasesHigh":868,
+    "NumberOfDeathsLow":2,
+    "NumberOfDeathsHigh":244.9
+  },
+  {
+    "GeographicalRegion":"Caribbean",
+    "Country":"Trinidad & Tobago",
+    "CurrentPopulation":1333272,
+    "NumberOfCasesLow":33,
+    "NumberOfCasesHigh":1911,
+    "NumberOfDeathsLow":0,
+    "NumberOfDeathsHigh":0
+  },
+  {
+    "GeographicalRegion":"Caribbean",
+    "Country":"Turks & Caicos",
+    "CurrentPopulation":22000,
+    "NumberOfCasesLow":0,
+    "NumberOfCasesHigh":0,
+    "NumberOfDeathsLow":0,
+    "NumberOfDeathsHigh":0
+  },
+  {
+    "GeographicalRegion":"North Africa/ Middle East",
+    "Country":"Algeria",
+    "CurrentPopulation":33857915,
+    "NumberOfCasesLow":100,
+    "NumberOfCasesHigh":6470,
+    "NumberOfDeathsLow":2.9,
+    "NumberOfDeathsHigh":6.3
+  },
+  {
+    "GeographicalRegion":"North Africa/ Middle East",
+    "Country":"Bahrain",
+    "CurrentPopulation":752648,
+    "NumberOfCasesLow":"2",
+    "NumberOfCasesHigh":38,
+    "NumberOfDeathsLow":0,
+    "NumberOfDeathsHigh":0
+  },
+  {
+    "GeographicalRegion":"North Africa/ Middle East",
+    "Country":"Egypt",
+    "CurrentPopulation":75497913,
+    "NumberOfCasesLow":"223",
+    "NumberOfCasesHigh":21254,
+    "NumberOfDeathsLow":14,
+    "NumberOfDeathsHigh":14
+  },
+  {
+    "GeographicalRegion":"North Africa/ Middle East",
+    "Country":"Iran",
+    "CurrentPopulation":71208384,
+    "NumberOfCasesLow":"210",
+    "NumberOfCasesHigh":11079,
+    "NumberOfDeathsLow":6,
+    "NumberOfDeathsHigh":13.2
+  },
+  {
+    "GeographicalRegion":"North Africa/ Middle East",
+    "Country":"Iraq",
+    "CurrentPopulation":28993374,
+    "NumberOfCasesLow":"86",
+    "NumberOfCasesHigh":4366,
+    "NumberOfDeathsLow":2.4,
+    "NumberOfDeathsHigh":5.4
+  },
+  {
+    "GeographicalRegion":"North Africa/ Middle East",
+    "Country":"Israel",
+    "CurrentPopulation":6927677,
+    "NumberOfCasesLow":"100",
+    "NumberOfCasesHigh":119,
+    "NumberOfDeathsLow":0.2,
+    "NumberOfDeathsHigh":1.3
+  },
+  {
+    "GeographicalRegion":"North Africa/ Middle East",
+    "Country":"Jordan",
+    "CurrentPopulation":5924245,
+    "NumberOfCasesLow":"17",
+    "NumberOfCasesHigh":613,
+    "NumberOfDeathsLow":0.5,
+    "NumberOfDeathsHigh":1.1
+  },
+  {
+    "GeographicalRegion":"North Africa/ Middle East",
+    "Country":"Kuwait",
+    "CurrentPopulation":2851144,
+    "NumberOfCasesLow":"8",
+    "NumberOfCasesHigh":56,
+    "NumberOfDeathsLow":0,
+    "NumberOfDeathsHigh":0
+  },
+  {
+    "GeographicalRegion":"North Africa/ Middle East",
+    "Country":"Lebanon",
+    "CurrentPopulation":4099115,
+    "NumberOfCasesLow":"12",
+    "NumberOfCasesHigh":228,
+    "NumberOfDeathsLow":0.3,
+    "NumberOfDeathsHigh":0.8
+  },
+  {
+    "GeographicalRegion":"North Africa/ Middle East",
+    "Country":"Libya",
+    "CurrentPopulation":6160483,
+    "NumberOfCasesLow":"18",
+    "NumberOfCasesHigh":388,
+    "NumberOfDeathsLow":0.5,
+    "NumberOfDeathsHigh":1.1
+  },
+  {
+    "GeographicalRegion":"North Africa/ Middle East",
+    "Country":"Morocco",
+    "CurrentPopulation":31224137,
+    "NumberOfCasesLow":"92",
+    "NumberOfCasesHigh":6349,
+    "NumberOfDeathsLow":2.6,
+    "NumberOfDeathsHigh":5.8
+  },
+  {
+    "GeographicalRegion":"North Africa/ Middle East",
+    "Country":"Palestinian Territory",
+    "CurrentPopulation":3762000,
+    "NumberOfCasesLow":"11",
+    "NumberOfCasesHigh":513,
+    "NumberOfDeathsLow":0.3,
+    "NumberOfDeathsHigh":0.7
+  },
+  {
+    "GeographicalRegion":"North Africa/ Middle East",
+    "Country":"Oman",
+    "CurrentPopulation":2595133,
+    "NumberOfCasesLow":"361",
+    "NumberOfCasesHigh":583,
+    "NumberOfDeathsLow":0.2,
+    "NumberOfDeathsHigh":0.5
+  },
+  {
+    "GeographicalRegion":"North Africa/ Middle East",
+    "Country":"Qatar",
+    "CurrentPopulation":840635,
+    "NumberOfCasesLow":"2",
+    "NumberOfCasesHigh":26,
+    "NumberOfDeathsLow":0,
+    "NumberOfDeathsHigh":0
+  },
+  {
+    "GeographicalRegion":"North Africa/ Middle East",
+    "Country":"Saudi Arabia",
+    "CurrentPopulation":24734533,
+    "NumberOfCasesLow":"1484",
+    "NumberOfCasesHigh":1855,
+    "NumberOfDeathsLow":2.1,
+    "NumberOfDeathsHigh":4.6
+  },
+  {
+    "GeographicalRegion":"North Africa/ Middle East",
+    "Country":"Syria",
+    "CurrentPopulation":19928516,
+    "NumberOfCasesLow":"59",
+    "NumberOfCasesHigh":4651,
+    "NumberOfDeathsLow":1.7,
+    "NumberOfDeathsHigh":3.7
+  },
+  {
+    "GeographicalRegion":"North Africa/ Middle East",
+    "Country":"Tunisia",
+    "CurrentPopulation":10327285,
+    "NumberOfCasesLow":"30",
+    "NumberOfCasesHigh":1747,
+    "NumberOfDeathsLow":0.9,
+    "NumberOfDeathsHigh":1.9
+  },
+  {
+    "GeographicalRegion":"North Africa/ Middle East",
+    "Country":"Turkey",
+    "CurrentPopulation":74876695,
+    "NumberOfCasesLow":"221",
+    "NumberOfCasesHigh":11777,
+    "NumberOfDeathsLow":6.3,
+    "NumberOfDeathsHigh":13.9
+  },
+  {
+    "GeographicalRegion":"North Africa/ Middle East",
+    "Country":"United Arab Emirates",
+    "CurrentPopulation":4380439,
+    "NumberOfCasesLow":"13",
+    "NumberOfCasesHigh":239,
+    "NumberOfDeathsLow":0.4,
+    "NumberOfDeathsHigh":0.8
+  },
+  {
+    "GeographicalRegion":"North Africa/ Middle East",
+    "Country":"Western Sahara",
+    "CurrentPopulation":324000,
+    "NumberOfCasesLow":"1",
+    "NumberOfCasesHigh":10,
+    "NumberOfDeathsLow":0,
+    "NumberOfDeathsHigh":0.1
+  },
+  {
+    "GeographicalRegion":"North Africa/ Middle East",
+    "Country":"Yemen",
+    "CurrentPopulation":22389169,
+    "NumberOfCasesLow":"66",
+    "NumberOfCasesHigh":7949,
+    "NumberOfDeathsLow":1.9,
+    "NumberOfDeathsHigh":4.2
+  },
+  {
+    "GeographicalRegion":"Sub Saharan Africa, Cent.",
+    "Country":"Angola",
+    "CurrentPopulation":17024084,
+    "NumberOfCasesLow":"1262",
+    "NumberOfCasesHigh":8004,
+    "NumberOfDeathsLow":19.6,
+    "NumberOfDeathsHigh":542.5
+  },
+  {
+    "GeographicalRegion":"Sub Saharan Africa, Cent.",
+    "Country":"Central African Republic",
+    "CurrentPopulation":4342735,
+    "NumberOfCasesLow":"322",
+    "NumberOfCasesHigh":1935,
+    "NumberOfDeathsLow":5,
+    "NumberOfDeathsHigh":130.1
+  },
+  {
+    "GeographicalRegion":"Sub Saharan Africa, Cent.",
+    "Country":"Congo",
+    "CurrentPopulation":3768086,
+    "NumberOfCasesLow":"435",
+    "NumberOfCasesHigh":593,
+    "NumberOfDeathsLow":4.3,
+    "NumberOfDeathsHigh":75.2
+  },
+  {
+    "GeographicalRegion":"Sub Saharan Africa, Cent.",
+    "Country":"DR Congo",
+    "CurrentPopulation":62635723,
+    "NumberOfCasesLow":"16021",
+    "NumberOfCasesHigh":36814,
+    "NumberOfDeathsLow":224.3,
+    "NumberOfDeathsHigh":2305.9
+  },
+  {
+    "GeographicalRegion":"Sub Saharan Africa, Cent.",
+    "Country":"Equatorial Guinea",
+    "CurrentPopulation":507499,
+    "NumberOfCasesLow":"38",
+    "NumberOfCasesHigh":229,
+    "NumberOfDeathsLow":0.6,
+    "NumberOfDeathsHigh":15.4
+  },
+  {
+    "GeographicalRegion":"Sub Saharan Africa, Cent.",
+    "Country":"Gabon",
+    "CurrentPopulation":1330574,
+    "NumberOfCasesLow":"99",
+    "NumberOfCasesHigh":246,
+    "NumberOfDeathsLow":2.3,
+    "NumberOfDeathsHigh":13.6
+  },
+  {
+    "GeographicalRegion":"Sub Saharan Africa, East",
+    "Country":"Burundi",
+    "CurrentPopulation":8508232,
+    "NumberOfCasesLow":"1174",
+    "NumberOfCasesHigh":2230,
+    "NumberOfDeathsLow":38.3,
+    "NumberOfDeathsHigh":322.7
+  },
+  {
+    "GeographicalRegion":"Sub Saharan Africa, East",
+    "Country":"Comoros",
+    "CurrentPopulation":839187,
+    "NumberOfCasesLow":"0",
+    "NumberOfCasesHigh":0,
+    "NumberOfDeathsLow":0,
+    "NumberOfDeathsHigh":0
+  },
+  {
+    "GeographicalRegion":"Sub Saharan Africa, East",
+    "Country":"Djibouti",
+    "CurrentPopulation":833021,
+    "NumberOfCasesLow":"115",
+    "NumberOfCasesHigh":132,
+    "NumberOfDeathsLow":3.7,
+    "NumberOfDeathsHigh":8.4
+  },
+  {
+    "GeographicalRegion":"Sub Saharan Africa, East",
+    "Country":"Eritrea",
+    "CurrentPopulation":4850763,
+    "NumberOfCasesLow":"669",
+    "NumberOfCasesHigh":1233,
+    "NumberOfDeathsLow":21.8,
+    "NumberOfDeathsHigh":173.7
+  },
+  {
+    "GeographicalRegion":"Sub Saharan Africa, East",
+    "Country":"Ethiopia",
+    "CurrentPopulation":83099190,
+    "NumberOfCasesLow":"11468",
+    "NumberOfCasesHigh":21223,
+    "NumberOfDeathsLow":373.9,
+    "NumberOfDeathsHigh":3002
+  },
+  {
+    "GeographicalRegion":"Sub Saharan Africa, East",
+    "Country":"Kenya",
+    "CurrentPopulation":37537716,
+    "NumberOfCasesLow":"5180",
+    "NumberOfCasesHigh":8194,
+    "NumberOfDeathsLow":168.9,
+    "NumberOfDeathsHigh":980.8
+  },
+  {
+    "GeographicalRegion":"Sub Saharan Africa, East",
+    "Country":"Madagascar",
+    "CurrentPopulation":19683358,
+    "NumberOfCasesLow":"0",
+    "NumberOfCasesHigh":0,
+    "NumberOfDeathsLow":0,
+    "NumberOfDeathsHigh":0
+  },
+  {
+    "GeographicalRegion":"Sub Saharan Africa, East",
+    "Country":"Malawi",
+    "CurrentPopulation":13925070,
+    "NumberOfCasesLow":"1922",
+    "NumberOfCasesHigh":3556,
+    "NumberOfDeathsLow":62.7,
+    "NumberOfDeathsHigh":503
+  },
+  {
+    "GeographicalRegion":"Sub Saharan Africa, East",
+    "Country":"Mozambique",
+    "CurrentPopulation":21396916,
+    "NumberOfCasesLow":"2953",
+    "NumberOfCasesHigh":4832,
+    "NumberOfDeathsLow":96.3,
+    "NumberOfDeathsHigh":602.5
+  },
+  {
+    "GeographicalRegion":"Sub Saharan Africa, East",
+    "Country":"Rwanda",
+    "CurrentPopulation":9724577,
+    "NumberOfCasesLow":"1342",
+    "NumberOfCasesHigh":2399,
+    "NumberOfDeathsLow":43.8,
+    "NumberOfDeathsHigh":328.5
+  },
+  {
+    "GeographicalRegion":"Sub Saharan Africa, East",
+    "Country":"Somalia",
+    "CurrentPopulation":8698534,
+    "NumberOfCasesLow":"1200",
+    "NumberOfCasesHigh":2289,
+    "NumberOfDeathsLow":39.1,
+    "NumberOfDeathsHigh":332.4
+  },
+  {
+    "GeographicalRegion":"Sub Saharan Africa, East",
+    "Country":"Sudan",
+    "CurrentPopulation":38560488,
+    "NumberOfCasesLow":"5321",
+    "NumberOfCasesHigh":8554,
+    "NumberOfDeathsLow":173.5,
+    "NumberOfDeathsHigh":1044.4
+  },
+  {
+    "GeographicalRegion":"Sub Saharan Africa, East",
+    "Country":"Uganda",
+    "CurrentPopulation":30883805,
+    "NumberOfCasesLow":"4262",
+    "NumberOfCasesHigh":8109,
+    "NumberOfDeathsLow":139,
+    "NumberOfDeathsHigh":1175.5
+  },
+  {
+    "GeographicalRegion":"Sub Saharan Africa, East",
+    "Country":"Tanzania",
+    "CurrentPopulation":40453513,
+    "NumberOfCasesLow":"5583",
+    "NumberOfCasesHigh":9341,
+    "NumberOfDeathsLow":182,
+    "NumberOfDeathsHigh":1194.4
+  },
+  {
+    "GeographicalRegion":"Sub Saharan Africa, East",
+    "Country":"Zambia",
+    "CurrentPopulation":11921999,
+    "NumberOfCasesLow":"1645",
+    "NumberOfCasesHigh":2731,
+    "NumberOfDeathsLow":53.6,
+    "NumberOfDeathsHigh":346.2
+  },
+  {
+    "GeographicalRegion":"Sub Saharan Africa, South",
+    "Country":"Botswana",
+    "CurrentPopulation":1881504,
+    "NumberOfCasesLow":"21",
+    "NumberOfCasesHigh":58,
+    "NumberOfDeathsLow":2.7,
+    "NumberOfDeathsHigh":10
+  },
+  {
+    "GeographicalRegion":"Sub Saharan Africa, South",
+    "Country":"Lesotho",
+    "CurrentPopulation":2007833,
+    "NumberOfCasesLow":"23",
+    "NumberOfCasesHigh":85,
+    "NumberOfDeathsLow":2.9,
+    "NumberOfDeathsHigh":10.6
+  },
+  {
+    "GeographicalRegion":"Sub Saharan Africa, South",
+    "Country":"Namibia",
+    "CurrentPopulation":2074146,
+    "NumberOfCasesLow":"23",
+    "NumberOfCasesHigh":82,
+    "NumberOfDeathsLow":3,
+    "NumberOfDeathsHigh":11
+  },
+  {
+    "GeographicalRegion":"Sub Saharan Africa, South",
+    "Country":"South Africa",
+    "CurrentPopulation":48576763,
+    "NumberOfCasesLow":"1383",
+    "NumberOfCasesHigh":1864,
+    "NumberOfDeathsLow":257.5,
+    "NumberOfDeathsHigh":257.5
+  },
+  {
+    "GeographicalRegion":"Sub Saharan Africa, South",
+    "Country":"Swaziland",
+    "CurrentPopulation":1141427,
+    "NumberOfCasesLow":"13",
+    "NumberOfCasesHigh":48,
+    "NumberOfDeathsLow":1.6,
+    "NumberOfDeathsHigh":6
+  },
+  {
+    "GeographicalRegion":"Sub Saharan Africa, South",
+    "Country":"Zimbabwe",
+    "CurrentPopulation":13349434,
+    "NumberOfCasesLow":"150",
+    "NumberOfCasesHigh":160,
+    "NumberOfDeathsLow":19,
+    "NumberOfDeathsHigh":70.8
+  },
+  {
+    "GeographicalRegion":"Sub Saharan Africa, West",
+    "Country":"Benin",
+    "CurrentPopulation":9032787,
+    "NumberOfCasesLow":"5913",
+    "NumberOfCasesHigh":11392,
+    "NumberOfDeathsLow":650,
+    "NumberOfDeathsHigh":764.1
+  },
+  {
+    "GeographicalRegion":"Sub Saharan Africa, West",
+    "Country":"Burkina Faso",
+    "CurrentPopulation":14784291,
+    "NumberOfCasesLow":"1109",
+    "NumberOfCasesHigh":8279,
+    "NumberOfDeathsLow":200,
+    "NumberOfDeathsHigh":441.9
+  },
+  {
+    "GeographicalRegion":"Sub Saharan Africa, West",
+    "Country":"Cameroon",
+    "CurrentPopulation":18549176,
+    "NumberOfCasesLow":"2255",
+    "NumberOfCasesHigh":6206,
+    "NumberOfDeathsLow":33.8,
+    "NumberOfDeathsHigh":265.9
+  },
+  {
+    "GeographicalRegion":"Sub Saharan Africa, West",
+    "Country":"Cape Verde",
+    "CurrentPopulation":530437,
+    "NumberOfCasesLow":"0",
+    "NumberOfCasesHigh":0,
+    "NumberOfDeathsLow":0,
+    "NumberOfDeathsHigh":0
+  },
+  {
+    "GeographicalRegion":"Sub Saharan Africa, West",
+    "Country":"Chad",
+    "CurrentPopulation":10780571,
+    "NumberOfCasesLow":"87",
+    "NumberOfCasesHigh":14414,
+    "NumberOfDeathsLow":3.5,
+    "NumberOfDeathsHigh":1008.1
+  },
+  {
+    "GeographicalRegion":"Sub Saharan Africa, West",
+    "Country":"Cote d’Ivoire",
+    "CurrentPopulation":19261821,
+    "NumberOfCasesLow":"6380",
+    "NumberOfCasesHigh":12366,
+    "NumberOfDeathsLow":200,
+    "NumberOfDeathsHigh":300
+  },
+  {
+    "GeographicalRegion":"Sub Saharan Africa, West",
+    "Country":"Gambia",
+    "CurrentPopulation":1708681,
+    "NumberOfCasesLow":"14",
+    "NumberOfCasesHigh":2344,
+    "NumberOfDeathsLow":0.6,
+    "NumberOfDeathsHigh":163.9
+  },
+  {
+    "GeographicalRegion":"Sub Saharan Africa, West",
+    "Country":"Ghana",
+    "CurrentPopulation":23478394,
+    "NumberOfCasesLow":"190",
+    "NumberOfCasesHigh":24515,
+    "NumberOfDeathsLow":7.6,
+    "NumberOfDeathsHigh":1713.3
+  },
+  {
+    "GeographicalRegion":"Sub Saharan Africa, West",
+    "Country":"Guinea-Bissau",
+    "CurrentPopulation":1695043,
+    "NumberOfCasesLow":"14",
+    "NumberOfCasesHigh":2170,
+    "NumberOfDeathsLow":0.5,
+    "NumberOfDeathsHigh":151.8
+  },
+  {
+    "GeographicalRegion":"Sub Saharan Africa, West",
+    "Country":"Guinea",
+    "CurrentPopulation":9370113,
+    "NumberOfCasesLow":"1275",
+    "NumberOfCasesHigh":6295,
+    "NumberOfDeathsLow":28.1,
+    "NumberOfDeathsHigh":468.5
+  },
+  {
+    "GeographicalRegion":"Sub Saharan Africa, West",
+    "Country":"Liberia",
+    "CurrentPopulation":3750261,
+    "NumberOfCasesLow":"30",
+    "NumberOfCasesHigh":4104,
+    "NumberOfDeathsLow":1.2,
+    "NumberOfDeathsHigh":286.9
+  },
+  {
+    "GeographicalRegion":"Sub Saharan Africa, West",
+    "Country":"Mali",
+    "CurrentPopulation":12336799,
+    "NumberOfCasesLow":"100",
+    "NumberOfCasesHigh":19516,
+    "NumberOfDeathsLow":4,
+    "NumberOfDeathsHigh":1365.5
+  },
+  {
+    "GeographicalRegion":"Sub Saharan Africa, West",
+    "Country":"Mauritania",
+    "CurrentPopulation":3123813,
+    "NumberOfCasesLow":"25",
+    "NumberOfCasesHigh":2325,
+    "NumberOfDeathsLow":1,
+    "NumberOfDeathsHigh":162.3
+  },
+  {
+    "GeographicalRegion":"Sub Saharan Africa, West",
+    "Country":"Niger",
+    "CurrentPopulation":14225521,
+    "NumberOfCasesLow":"1337",
+    "NumberOfCasesHigh":21527,
+    "NumberOfDeathsLow":26.7,
+    "NumberOfDeathsHigh":76.5
+  },
+  {
+    "GeographicalRegion":"Sub Saharan Africa, West",
+    "Country":"Nigeria",
+    "CurrentPopulation":148092542,
+    "NumberOfCasesLow":"1200",
+    "NumberOfCasesHigh":141710,
+    "NumberOfDeathsLow":48,
+    "NumberOfDeathsHigh":9900.9
+  },
+  {
+    "GeographicalRegion":"Sub Saharan Africa, West",
+    "Country":"Saint Helena",
+    "CurrentPopulation":5000,
+    "NumberOfCasesLow":"0",
+    "NumberOfCasesHigh":6,
+    "NumberOfDeathsLow":0,
+    "NumberOfDeathsHigh":0.4
+  },
+  {
+    "GeographicalRegion":"Sub Saharan Africa, West",
+    "Country":"Sao Tome & Principe",
+    "CurrentPopulation":157638,
+    "NumberOfCasesLow":"1",
+    "NumberOfCasesHigh":217,
+    "NumberOfDeathsLow":0.1,
+    "NumberOfDeathsHigh":15.2
+  },
+  {
+    "GeographicalRegion":"Sub Saharan Africa, West",
+    "Country":"Senegal",
+    "CurrentPopulation":12378532,
+    "NumberOfCasesLow":"1238",
+    "NumberOfCasesHigh":1946,
+    "NumberOfDeathsLow":185.7,
+    "NumberOfDeathsHigh":867
+  },
+  {
+    "GeographicalRegion":"Sub Saharan Africa, West",
+    "Country":"Sierra Leone",
+    "CurrentPopulation":5865872,
+    "NumberOfCasesLow":"48",
+    "NumberOfCasesHigh":6724,
+    "NumberOfDeathsLow":1.9,
+    "NumberOfDeathsHigh":470.1
+  },
+  {
+    "GeographicalRegion":"Sub Saharan Africa, West",
+    "Country":"Togo",
+    "CurrentPopulation":6585147,
+    "NumberOfCasesLow":"6783",
+    "NumberOfCasesHigh":8644,
+    "NumberOfDeathsLow":197.6,
+    "NumberOfDeathsHigh":232
+  }
+]
