@@ -32,23 +32,25 @@ System.register(['angular2/core', 'angular2/common', 'angular2/router', '../serv
                     this._snakeDataService = _snakeDataService;
                     this._router = _router;
                     this.message = "overview";
+                    this.getData();
                 }
                 OverviewComponent.prototype.ngOnInit = function () {
-                    this.getData();
+                    console.log("ngOnInit OverviewComponent");
                 };
                 OverviewComponent.prototype.getData = function () {
                     var _this = this;
                     console.log('OverviewComponent:getData starting...');
                     this._snakeDataService
                         .GetGeographicalRegions()
-                        .subscribe(function (data) { return _this.GeographicalRegions = data; }, function (error) { return console.log(error); }, function () { return console.log('Get all completed'); });
+                        .subscribe(function (data) { return _this.GeographicalRegions = data; }, function (error) { return console.log(error); }, function () { return console.log('OverviewComponent:getData:Get all completed'); });
                 };
                 OverviewComponent = __decorate([
                     core_1.Component({
                         selector: 'overview',
                         templateUrl: 'app/overview/overview.component.html',
                         directives: [common_1.CORE_DIRECTIVES, router_1.ROUTER_DIRECTIVES]
-                    }), 
+                    }),
+                    core_1.Injectable(), 
                     __metadata('design:paramtypes', [SnakeDataService_1.SnakeDataService, router_1.Router])
                 ], OverviewComponent);
                 return OverviewComponent;

@@ -10,6 +10,11 @@ var paths = {
     libTarget: "./wwwroot/libs/"
 };
 
+var pathsPlotly = {
+    npmSrc: "./node_modules/",
+    libTarget: "./wwwroot/app/plotly"
+};
+
 var packagesToMove = [
    paths.npmSrc + '/angular2/bundles/angular2-polyfills.js',
    paths.npmSrc + '/angular2/bundles/router.dev.js',
@@ -30,7 +35,15 @@ var packagesToMove = [
    paths.npmSrc + '/angular2-localstorage/LocalStorageEmitter.ts'
    
 ];
+
+var packagesPlotlyToMove = [
+   pathsPlotly.npmSrc + '/plotly.js/dist/plotly.min.js'
+];
+
 gulp.task('copyNpmTo_wwwrootLibs', function () {
     return gulp.src(packagesToMove).pipe(gulp.dest(paths.libTarget));
 });
 
+gulp.task('copyNpmTo_plotly', function () {
+    return gulp.src(packagesPlotlyToMove).pipe(gulp.dest(pathsPlotly.libTarget));
+});

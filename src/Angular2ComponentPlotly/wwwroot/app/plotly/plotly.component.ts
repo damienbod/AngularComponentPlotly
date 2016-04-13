@@ -1,26 +1,35 @@
-import { Component, OnInit } from 'angular2/core';
+import { Component, EventEmitter, Input, Output, OnInit } from 'angular2/core';
 import { CORE_DIRECTIVES } from 'angular2/common';
-import { Observable }       from 'rxjs/Observable';
+import { Subscription } from 'rxjs/Subscription';
+import { Observable } from 'rxjs/Observable';
 import { Router, ROUTER_DIRECTIVES } from 'angular2/router';
 
-
 @Component({
-    selector: 'plotly',
-    templateUrl: 'app/plotly/plotly.component.html',
+    selector: 'plotlychart',
+    template: `
+    <div *ngIf="data">working {{data}}</div>
+    `,
     directives: [CORE_DIRECTIVES, ROUTER_DIRECTIVES]
 })
 
 export class PlotlyComponent implements OnInit {
 
-    public message: string;
+    //<plotly data="data" layout= "layout" options= "options" > </plotly>
 
-   
-    constructor(
-        private _router: Router) {
-        this.message = "plotly";
+    @Input() data: any = {};
+    @Input() layout: any = {};
+    @Input() options: any = {};
+
+
+    constructor() {
+        console.log("constructor plotly component");
+        console.log(this.data);
+        console.log(this.layout);
+        //Plotly.newPlot(graph, data, layout, options);
     }
 
     ngOnInit() {
+        console.log("ngOnInit PlotlyComponent");
     }
 
 }

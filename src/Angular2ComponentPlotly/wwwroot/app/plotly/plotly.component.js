@@ -25,19 +25,36 @@ System.register(['angular2/core', 'angular2/common', 'angular2/router'], functio
             }],
         execute: function() {
             PlotlyComponent = (function () {
-                function PlotlyComponent(_router) {
-                    this._router = _router;
-                    this.message = "plotly";
+                function PlotlyComponent() {
+                    this.data = {};
+                    this.layout = {};
+                    this.options = {};
+                    console.log("constructor plotly component");
+                    console.log(this.data);
+                    console.log(this.layout);
                 }
                 PlotlyComponent.prototype.ngOnInit = function () {
+                    console.log("ngOnInit PlotlyComponent");
                 };
+                __decorate([
+                    core_1.Input(), 
+                    __metadata('design:type', Object)
+                ], PlotlyComponent.prototype, "data", void 0);
+                __decorate([
+                    core_1.Input(), 
+                    __metadata('design:type', Object)
+                ], PlotlyComponent.prototype, "layout", void 0);
+                __decorate([
+                    core_1.Input(), 
+                    __metadata('design:type', Object)
+                ], PlotlyComponent.prototype, "options", void 0);
                 PlotlyComponent = __decorate([
                     core_1.Component({
-                        selector: 'plotly',
-                        templateUrl: 'app/plotly/plotly.component.html',
+                        selector: 'plotlychart',
+                        template: "\n    <div *ngIf=\"data\">working {{data}}</div>\n    ",
                         directives: [common_1.CORE_DIRECTIVES, router_1.ROUTER_DIRECTIVES]
                     }), 
-                    __metadata('design:paramtypes', [router_1.Router])
+                    __metadata('design:paramtypes', [])
                 ], PlotlyComponent);
                 return PlotlyComponent;
             }());

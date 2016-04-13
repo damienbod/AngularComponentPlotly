@@ -1,4 +1,4 @@
-System.register(['angular2/core', 'angular2/router', './overview/overview.component', './region/region.component', './services/SnakeDataService'], function(exports_1, context_1) {
+System.register(['angular2/core', 'angular2/router', './overview/overview.component', './region/region.component', './plotly/plotly.component', './services/SnakeDataService'], function(exports_1, context_1) {
     "use strict";
     var __moduleName = context_1 && context_1.id;
     var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -10,7 +10,7 @@ System.register(['angular2/core', 'angular2/router', './overview/overview.compon
     var __metadata = (this && this.__metadata) || function (k, v) {
         if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
     };
-    var core_1, router_1, overview_component_1, region_component_1, SnakeDataService_1;
+    var core_1, router_1, overview_component_1, region_component_1, plotly_component_1, SnakeDataService_1;
     var AppComponent;
     return {
         setters:[
@@ -26,6 +26,9 @@ System.register(['angular2/core', 'angular2/router', './overview/overview.compon
             function (region_component_1_1) {
                 region_component_1 = region_component_1_1;
             },
+            function (plotly_component_1_1) {
+                plotly_component_1 = plotly_component_1_1;
+            },
             function (SnakeDataService_1_1) {
                 SnakeDataService_1 = SnakeDataService_1_1;
             }],
@@ -38,7 +41,7 @@ System.register(['angular2/core', 'angular2/router', './overview/overview.compon
                         selector: 'my-app',
                         templateUrl: 'app/app.component.html',
                         styleUrls: ['app/app.component.css'],
-                        directives: [router_1.ROUTER_DIRECTIVES],
+                        directives: [plotly_component_1.PlotlyComponent, router_1.ROUTER_DIRECTIVES],
                         providers: [
                             router_1.ROUTER_PROVIDERS,
                             SnakeDataService_1.SnakeDataService

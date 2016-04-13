@@ -1,4 +1,4 @@
-<div class="panel-group">
+<div class="panel-group" *ngIf="GeographicalRegions">
 
     <div class="mcbutton col-md-4" style="margin-left: -15px; margin-bottom: 10px;"  *ngFor="#geographicalRegion of GeographicalRegions" >
         <div class="panel panel-default" [routerLink]="['Region', {name:  geographicalRegion.Name}]">

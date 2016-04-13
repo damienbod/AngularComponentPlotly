@@ -1,4 +1,4 @@
-System.register(['angular2/core', 'angular2/common', 'angular2/router', '../services/SnakeDataService'], function(exports_1, context_1) {
+System.register(['angular2/core', 'angular2/common', 'angular2/router', '../plotly/plotly.component', '../services/SnakeDataService'], function(exports_1, context_1) {
     "use strict";
     var __moduleName = context_1 && context_1.id;
     var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -10,7 +10,7 @@ System.register(['angular2/core', 'angular2/common', 'angular2/router', '../serv
     var __metadata = (this && this.__metadata) || function (k, v) {
         if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
     };
-    var core_1, common_1, router_1, SnakeDataService_1;
+    var core_1, common_1, router_1, plotly_component_1, SnakeDataService_1;
     var RegionComponent;
     return {
         setters:[
@@ -23,6 +23,9 @@ System.register(['angular2/core', 'angular2/common', 'angular2/router', '../serv
             function (router_1_1) {
                 router_1 = router_1_1;
             },
+            function (plotly_component_1_1) {
+                plotly_component_1 = plotly_component_1_1;
+            },
             function (SnakeDataService_1_1) {
                 SnakeDataService_1 = SnakeDataService_1_1;
             }],
@@ -32,27 +35,57 @@ System.register(['angular2/core', 'angular2/common', 'angular2/router', '../serv
                     this._snakeDataService = _snakeDataService;
                     this._routeParams = _routeParams;
                     this._router = _router;
+                    this.PlotlyLayout = {};
+                    this.PlotlyData = {};
+                    this.PlotlyOptions = {};
                     this.message = "region";
                     this.name = this._routeParams.get('name');
-                }
-                RegionComponent.prototype.ngOnInit = function () {
                     if (!this.GeographicalCountries) {
                         this.getData();
                     }
+                }
+                RegionComponent.prototype.ngOnInit = function () {
+                    console.log("ngOnInit RegionComponent");
+                    this.getData();
+                };
+                RegionComponent.prototype.ngOnChanges = function () {
+                    console.log("ngOnChanges RegionComponent");
+                    this.getData();
                 };
                 RegionComponent.prototype.getData = function () {
                     var _this = this;
                     console.log('RegionComponent:getData starting...');
                     this._snakeDataService
                         .GetRegionBarChartData(this.name)
-                        .subscribe(function (data) { return _this.GeographicalCountries = data; }, function (error) { return console.log(error); }, function () { return console.log('Get all completed'); });
+                        .subscribe(function (data) { return _this.setReturnedData(data); }, function (error) { return console.log(error); }, function () { return console.log('Get GeographicalCountries completed for region'); });
+                };
+                RegionComponent.prototype.setReturnedData = function (data) {
+                    this.GeographicalCountries = data;
+                    this.PlotlyLayout = {
+                        title: this.GeographicalCountries.RegionName + ": Number of snake bite deaths",
+                        height: 500,
+                        width: 1200
+                    };
+                    this.PlotlyData = [
+                        {
+                            x: this.GeographicalCountries.X,
+                            y: this.getYDatafromDatPoint(),
+                            name: "Number of snake bite deaths",
+                            type: 'bar',
+                            orientation: 'v'
+                        }
+                    ];
+                };
+                RegionComponent.prototype.getYDatafromDatPoint = function () {
+                    return this.GeographicalCountries.NumberOfDeathsHighData.Y;
                 };
                 RegionComponent = __decorate([
                     core_1.Component({
                         selector: 'region',
                         templateUrl: 'app/region/region.component.html',
-                        directives: [common_1.CORE_DIRECTIVES, router_1.ROUTER_DIRECTIVES]
-                    }), 
+                        directives: [plotly_component_1.PlotlyComponent, common_1.CORE_DIRECTIVES, router_1.ROUTER_DIRECTIVES]
+                    }),
+                    core_1.Injectable(), 
                     __metadata('design:paramtypes', [SnakeDataService_1.SnakeDataService, router_1.RouteParams, router_1.Router])
                 ], RegionComponent);
                 return RegionComponent;

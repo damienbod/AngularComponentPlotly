@@ -1,4 +1,5 @@
-<div >
-    region
-    <plotly></plotly>
+<div *ngIf="PlotlyData">
+    <span>region start</span>
+    <plotlychart [data]="PlotlyData"  [layout]="PlotlyLayout" [options]="PlotlyOptions"></plotlychart>
+    <span>region end</span>
 </div>
