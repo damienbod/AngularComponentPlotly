@@ -3,8 +3,8 @@ import { Http, Response, Headers } from 'angular2/http';
 import 'rxjs/add/operator/map'
 import { Observable } from 'rxjs/Observable';
 import { Configuration } from '../app.constants';
-import { GeographicalRegion } from './models/GeographicalRegion';
-import { GeographicalCountries } from './models/GeographicalCountries';
+import { GeographicalRegion } from '../models/GeographicalRegion';
+import { GeographicalCountries } from '../models/GeographicalCountries';
 
 @Injectable()
 export class SnakeDataService {

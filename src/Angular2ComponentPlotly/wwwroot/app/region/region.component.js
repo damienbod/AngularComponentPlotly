@@ -11,7 +11,7 @@ System.register(['angular2/core', 'angular2/common', 'angular2/router', '../serv
         if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
     };
     var core_1, common_1, router_1, SnakeDataService_1;
-    var OverviewComponent;
+    var RegionComponent;
     return {
         setters:[
             function (core_1_1) {
@@ -27,34 +27,38 @@ System.register(['angular2/core', 'angular2/common', 'angular2/router', '../serv
                 SnakeDataService_1 = SnakeDataService_1_1;
             }],
         execute: function() {
-            OverviewComponent = (function () {
-                function OverviewComponent(_snakeDataService, _router) {
+            RegionComponent = (function () {
+                function RegionComponent(_snakeDataService, _routeParams, _router) {
                     this._snakeDataService = _snakeDataService;
+                    this._routeParams = _routeParams;
                     this._router = _router;
-                    this.message = "overview";
+                    this.message = "region";
+                    this.name = this._routeParams.get('name');
                 }
-                OverviewComponent.prototype.ngOnInit = function () {
-                    this.getData();
+                RegionComponent.prototype.ngOnInit = function () {
+                    if (!this.GeographicalCountries) {
+                        this.getData();
+                    }
                 };
-                OverviewComponent.prototype.getData = function () {
+                RegionComponent.prototype.getData = function () {
                     var _this = this;
-                    console.log('OverviewComponent:getData starting...');
+                    console.log('RegionComponent:getData starting...');
                     this._snakeDataService
-                        .GetGeographicalRegions()
-                        .subscribe(function (data) { return _this.GeographicalRegions = data; }, function (error) { return console.log(error); }, function () { return console.log('Get all completed'); });
+                        .GetRegionBarChartData(this.name)
+                        .subscribe(function (data) { return _this.GeographicalCountries = data; }, function (error) { return console.log(error); }, function () { return console.log('Get all completed'); });
                 };
-                OverviewComponent = __decorate([
+                RegionComponent = __decorate([
                     core_1.Component({
-                        selector: 'overview',
-                        templateUrl: 'app/overview/overview.component.html',
+                        selector: 'region',
+                        templateUrl: 'app/region/region.component.html',
                         directives: [common_1.CORE_DIRECTIVES, router_1.ROUTER_DIRECTIVES]
                     }), 
-                    __metadata('design:paramtypes', [SnakeDataService_1.SnakeDataService, router_1.Router])
-                ], OverviewComponent);
-                return OverviewComponent;
+                    __metadata('design:paramtypes', [SnakeDataService_1.SnakeDataService, router_1.RouteParams, router_1.Router])
+                ], RegionComponent);
+                return RegionComponent;
             }());
-            exports_1("OverviewComponent", OverviewComponent);
+            exports_1("RegionComponent", RegionComponent);
         }
     }
 });
-//# sourceMappingURL=overview.component.js.map
+//# sourceMappingURL=region.component.js.map

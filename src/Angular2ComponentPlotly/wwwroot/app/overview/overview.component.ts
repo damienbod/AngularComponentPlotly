@@ -3,9 +3,9 @@ import { CORE_DIRECTIVES } from 'angular2/common';
 import { Observable }       from 'rxjs/Observable';
 import { Router, ROUTER_DIRECTIVES } from 'angular2/router';
 
-import { SnakeDataService } from '../overview/SnakeDataService';
-import { GeographicalRegion } from './models/GeographicalRegion';
-import { GeographicalCountries } from './models/GeographicalCountries';
+import { SnakeDataService } from '../services/SnakeDataService';
+import { GeographicalRegion } from '../models/GeographicalRegion';
+import { GeographicalCountries } from '../models/GeographicalCountries';
 
 @Component({
     selector: 'overview',
