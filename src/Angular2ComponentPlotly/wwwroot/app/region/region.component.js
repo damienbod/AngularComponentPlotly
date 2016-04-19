@@ -46,11 +46,9 @@ System.register(['angular2/core', 'angular2/common', 'angular2/router', '../plot
                 }
                 RegionComponent.prototype.ngOnInit = function () {
                     console.log("ngOnInit RegionComponent");
-                    this.getData();
-                };
-                RegionComponent.prototype.ngOnChanges = function () {
-                    console.log("ngOnChanges RegionComponent");
-                    this.getData();
+                    if (!this.GeographicalCountries) {
+                        this.getData();
+                    }
                 };
                 RegionComponent.prototype.getData = function () {
                     var _this = this;
