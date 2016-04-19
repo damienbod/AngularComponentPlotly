@@ -1,4 +1,4 @@
-import { Component, OnInit, Injectable } from 'angular2/core';
+import { Component, OnInit } from 'angular2/core';
 import { CORE_DIRECTIVES } from 'angular2/common';
 import { Observable }       from 'rxjs/Observable';
 import { Router, ROUTER_DIRECTIVES } from 'angular2/router';
@@ -13,24 +13,21 @@ import { GeographicalCountries } from '../models/GeographicalCountries';
     directives: [CORE_DIRECTIVES, ROUTER_DIRECTIVES]
 })
 
-@Injectable()
 export class OverviewComponent implements OnInit {
 
     public message: string;
     public GeographicalRegions: GeographicalRegion[];
-   
+
     constructor(
         private _snakeDataService: SnakeDataService,
         private _router: Router) {
         this.message = "overview";
-        this.getData();
     }
 
     ngOnInit() {
         console.log("ngOnInit OverviewComponent");
-        if (!this.GeographicalRegions) {
-            this.getData();
-        }
+        this.getData();
+        
     }
 
     private getData() {

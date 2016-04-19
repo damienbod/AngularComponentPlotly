@@ -41,7 +41,7 @@ System.register(['angular2/core', 'angular2/router', './overview/overview.compon
                         selector: 'my-app',
                         templateUrl: 'app/app.component.html',
                         styleUrls: ['app/app.component.css'],
-                        directives: [plotly_component_1.PlotlyComponent, router_1.ROUTER_DIRECTIVES],
+                        directives: [router_1.ROUTER_DIRECTIVES, plotly_component_1.PlotlyComponent],
                         providers: [
                             router_1.ROUTER_PROVIDERS,
                             SnakeDataService_1.SnakeDataService

@@ -10,7 +10,7 @@ import { SnakeDataService } from './services/SnakeDataService';
     selector: 'my-app',
     templateUrl: 'app/app.component.html',
     styleUrls: ['app/app.component.css'],
-    directives: [PlotlyComponent, ROUTER_DIRECTIVES],
+    directives: [ROUTER_DIRECTIVES, PlotlyComponent],
     providers: [
         ROUTER_PROVIDERS,
         SnakeDataService
