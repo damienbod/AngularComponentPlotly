@@ -45,16 +45,31 @@ namespace AngularPlotlyAspNetCore
 
             app.UseIISPlatformHandler();
 
+            var angularRoutes = new[] {
+                "/overview",
+                "/region",
+                "/authorize",
+                "/unauthorized",
+                "/dataeventrecords",
+                "/dataeventrecords/create",
+                "/dataeventrecords/edit",
+                "/logoff",
+                "/securefile",
+                "/securefile/securefiles",
+            };
+
             app.Use(async (context, next) =>
             {
-                await next();
-
-                if (context.Response.StatusCode == 404 && !Path.HasExtension(context.Request.Path.Value))
+                if (context.Request.Path.HasValue && null != angularRoutes.FirstOrDefault(
+                    (ar) => context.Request.Path.Value.StartsWith(ar, StringComparison.OrdinalIgnoreCase)))
                 {
-                    context.Request.Path = "/index.html"; 
-                    await next();
+                    context.Request.Path = new PathString("/");
                 }
+
+                await next();
             });
+            app.UseDefaultFiles();
+
 
             app.UseStaticFiles();
             app.UseMvc();
