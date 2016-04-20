@@ -2,9 +2,10 @@ import { Component, OnInit } from 'angular2/core';
 import { CORE_DIRECTIVES } from 'angular2/common';
 import { Observable }       from 'rxjs/Observable';
 import { Router, ROUTER_DIRECTIVES } from 'angular2/router';
-import { Http } from 'angular2/http';
-import { GeographicalRegion } from '../models/GeographicalRegion';
+import {Http} from 'angular2/http';
 import { SnakeDataService } from '../services/SnakeDataService';
+import { GeographicalRegion } from '../models/GeographicalRegion';
+import { GeographicalCountries } from '../models/GeographicalCountries';
 
 @Component({
     selector: 'overviewcomponent',
@@ -25,10 +26,11 @@ export class OverviewComponent implements OnInit {
 
     ngOnInit() {
         console.log("ngOnInit OverviewComponent");
-        this.getGeographicalRegionsData();
+        this.getData();
+        
     }
 
-    private getGeographicalRegionsData() {
+    private getData() {
         console.log('OverviewComponent:getData starting...');
         this._snakeDataService
             .GetGeographicalRegions()

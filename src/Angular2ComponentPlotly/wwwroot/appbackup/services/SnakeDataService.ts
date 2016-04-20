@@ -4,7 +4,7 @@ import 'rxjs/add/operator/map'
 import { Observable } from 'rxjs/Observable';
 import { Configuration } from '../app.constants';
 import { GeographicalRegion } from '../models/GeographicalRegion';
-
+import { GeographicalCountries } from '../models/GeographicalCountries';
 
 @Injectable()
 export class SnakeDataService {
@@ -29,11 +29,11 @@ export class SnakeDataService {
         }).map(res => res.json());
     }
 
-    //public GetRegionBarChartData = (region: string): Observable<GeographicalCountries> => {
-    //    this.setHeaders();
-    //    return this._http.get(`${this.actionUrl}RegionBarChart/${region}`, {
-    //        headers: this.headers
-    //    }).map(res => res.json());
-    //}
+    public GetRegionBarChartData = (region: string): Observable<GeographicalCountries> => {
+        this.setHeaders();
+        return this._http.get(`${this.actionUrl}RegionBarChart/${region}`, {
+            headers: this.headers
+        }).map(res => res.json());
+    }
 
 }

@@ -35,9 +35,9 @@ System.register(['angular2/core', 'angular2/common', 'angular2/router', '../serv
                 }
                 OverviewComponent.prototype.ngOnInit = function () {
                     console.log("ngOnInit OverviewComponent");
-                    this.getGeographicalRegionsData();
+                    this.getData();
                 };
-                OverviewComponent.prototype.getGeographicalRegionsData = function () {
+                OverviewComponent.prototype.getData = function () {
                     var _this = this;
                     console.log('OverviewComponent:getData starting...');
                     this._snakeDataService

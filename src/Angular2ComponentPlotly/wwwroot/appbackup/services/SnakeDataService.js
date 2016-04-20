@@ -36,6 +36,12 @@ System.register(['angular2/core', 'angular2/http', 'rxjs/add/operator/map', '../
                             headers: _this.headers
                         }).map(function (res) { return res.json(); });
                     };
+                    this.GetRegionBarChartData = function (region) {
+                        _this.setHeaders();
+                        return _this._http.get(_this.actionUrl + "RegionBarChart/" + region, {
+                            headers: _this.headers
+                        }).map(function (res) { return res.json(); });
+                    };
                     this.actionUrl = _configuration.Server + "api/SnakeData/";
                 }
                 SnakeDataService.prototype.setHeaders = function () {
