@@ -22,9 +22,9 @@ export class RegionComponent implements OnInit {
     public GeographicalCountries: GeographicalCountries;
 
     private name: string;
-    public PlotlyLayout: any = {};
-    public PlotlyData: any = {};
-    public PlotlyOptions: any = {};
+    public PlotlyLayout: any;
+    public PlotlyData: any;
+    public PlotlyOptions: any;
 
     constructor(
         private _snakeDataService: SnakeDataService,
@@ -68,6 +68,9 @@ export class RegionComponent implements OnInit {
                 orientation: 'v'
             }
         ];
+
+        console.log("recieved plotly data");
+        console.log(this.PlotlyData);
     }
 
     private getYDatafromDatPoint() {

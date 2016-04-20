@@ -11,20 +11,18 @@ import { Router, ROUTER_DIRECTIVES } from 'angular2/router';
 })
 
 export class PlotlyComponent implements OnInit {
-    @Input() data: any = {};
-    @Input() layout: any = {};
-    @Input() options: any = {};
-
+    @Input() data: any;
+    @Input() layout: any;
+    @Input() options: any;
 
     constructor() {
         console.log("constructor plotly component");
-        console.log(this.data);
-        console.log(this.layout);
-        //Plotly.newPlot(graph, data, layout, options);
     }
 
     ngOnInit() {
         console.log("ngOnInit PlotlyComponent");
+        console.log(this.data);
+        console.log(this.layout);
     }
 
 }

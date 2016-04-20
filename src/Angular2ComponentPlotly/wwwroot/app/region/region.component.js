@@ -35,9 +35,6 @@ System.register(['angular2/core', 'angular2/common', 'angular2/router', '../plot
                     this._snakeDataService = _snakeDataService;
                     this._routeParams = _routeParams;
                     this._router = _router;
-                    this.PlotlyLayout = {};
-                    this.PlotlyData = {};
-                    this.PlotlyOptions = {};
                     this.message = "region";
                 }
                 RegionComponent.prototype.ngOnInit = function () {
@@ -70,6 +67,8 @@ System.register(['angular2/core', 'angular2/common', 'angular2/router', '../plot
                             orientation: 'v'
                         }
                     ];
+                    console.log("recieved plotly data");
+                    console.log(this.PlotlyData);
                 };
                 RegionComponent.prototype.getYDatafromDatPoint = function () {
                     return this.GeographicalCountries.NumberOfDeathsHighData.Y;

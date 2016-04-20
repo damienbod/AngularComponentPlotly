@@ -26,15 +26,12 @@ System.register(['angular2/core', 'angular2/common', 'angular2/router'], functio
         execute: function() {
             PlotlyComponent = (function () {
                 function PlotlyComponent() {
-                    this.data = {};
-                    this.layout = {};
-                    this.options = {};
                     console.log("constructor plotly component");
-                    console.log(this.data);
-                    console.log(this.layout);
                 }
                 PlotlyComponent.prototype.ngOnInit = function () {
                     console.log("ngOnInit PlotlyComponent");
+                    console.log(this.data);
+                    console.log(this.layout);
                 };
                 __decorate([
                     core_1.Input(), 
