@@ -1,16 +1,11 @@
-data: 
+<!--data: 
 <hr/>
 <span>{{data | json}}</span>
 <hr />
 layout: 
 <hr />
 <span>{{data | json}}</span>
-<hr />
+<hr />-->
 
 <!--https://plot.ly/javascript/bar-charts/-->
-<div id="myPlotlyDiv" style="width: 480px; height: 400px;"><!-- Plotly chart will be drawn inside this DIV --></div>
-<script>
-        Plotly.newPlot('myPlotlyDiv', '{{data| json}}', '{{layout| json}}', '{{options| json}}');
-</script>
-
-<hr />
+<div id="myPlotlyDiv" name="myPlotlyDiv" style="width: 480px; height: 400px;"><!-- Plotly chart will be drawn inside this DIV --></div>
