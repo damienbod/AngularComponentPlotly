@@ -16,7 +16,7 @@ import { SnakeDataService } from './services/SnakeDataService';
 })
 
 @RouteConfig([
-    { path: '/overview', name: 'Overview', component: OverviewComponent },
+        { path: '/overview', name: 'Overview', component: OverviewComponent },
 ])
  
 export class AppComponent {

@@ -1,9 +1,10 @@
 import { Component, OnInit } from 'angular2/core';
 import { CORE_DIRECTIVES } from 'angular2/common';
 import { Observable }       from 'rxjs/Observable';
-import { Router, ROUTER_DIRECTIVES } from 'angular2/router';
+import { Router, RouteConfig, ROUTER_DIRECTIVES, ROUTER_PROVIDERS } from 'angular2/router';
 import { Http } from 'angular2/http';
 import { GeographicalRegion } from '../models/GeographicalRegion';
+import { RegionComponent } from '../region/region.component';
 import { SnakeDataService } from '../services/SnakeDataService';
 
 @Component({
@@ -11,6 +12,10 @@ import { SnakeDataService } from '../services/SnakeDataService';
     templateUrl: 'app/overview/overview.component.html',
     directives: [CORE_DIRECTIVES, ROUTER_DIRECTIVES]
 })
+
+@RouteConfig([
+    { path: '/region/:name', name: 'Region', component: RegionComponent },
+])
 
 export class OverviewComponent implements OnInit {
 
