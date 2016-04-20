@@ -36,19 +36,19 @@ export class RegionComponent implements OnInit {
     ngOnInit() {
         this.name = this._routeParams.get('name');
         console.log("ngOnInit RegionComponent");
-        //if (!this.GeographicalCountries) {
-        //    this.getGetRegionBarChartData();
-        //}
+        if (!this.GeographicalCountries) {
+            this.getGetRegionBarChartData();
+        }
     }
 
-    //private getGetRegionBarChartData() {
-    //    console.log('RegionComponent:getData starting...');
-    //    this._snakeDataService
-    //        .GetRegionBarChartData(this.name)
-    //        .subscribe(data => this.setReturnedData(data),
-    //        error => console.log(error),
-    //        () => console.log('Get GeographicalCountries completed for region'));
-    //}
+    private getGetRegionBarChartData() {
+        console.log('RegionComponent:getData starting...');
+        this._snakeDataService
+            .GetRegionBarChartData(this.name)
+            .subscribe(data => this.setReturnedData(data),
+            error => console.log(error),
+            () => console.log('Get GeographicalCountries completed for region'));
+    }
 
     private setReturnedData(data: any) {
         this.GeographicalCountries = data;

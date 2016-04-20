@@ -2,6 +2,7 @@
 import { RouteConfig, ROUTER_DIRECTIVES, ROUTER_PROVIDERS } from 'angular2/router';
 
 import { OverviewComponent } from './overview/overview.component';
+import { RegionComponent } from './region/region.component';
 import { SnakeDataService } from './services/SnakeDataService';
 
 @Component({
@@ -17,6 +18,7 @@ import { SnakeDataService } from './services/SnakeDataService';
 
 @RouteConfig([
         { path: '/overview', name: 'Overview', component: OverviewComponent },
+        { path: '/region/:name', name: 'Region', component: RegionComponent },
 ])
  
 export class AppComponent {

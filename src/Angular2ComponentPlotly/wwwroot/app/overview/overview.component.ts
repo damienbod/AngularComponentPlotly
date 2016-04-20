@@ -13,10 +13,6 @@ import { SnakeDataService } from '../services/SnakeDataService';
     directives: [CORE_DIRECTIVES, ROUTER_DIRECTIVES]
 })
 
-@RouteConfig([
-    { path: '/region/:name', name: 'Region', component: RegionComponent },
-])
-
 export class OverviewComponent implements OnInit {
 
     public message: string;

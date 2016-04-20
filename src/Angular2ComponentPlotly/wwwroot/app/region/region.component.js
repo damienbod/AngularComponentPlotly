@@ -40,6 +40,16 @@ System.register(['angular2/core', 'angular2/common', 'angular2/router', '../serv
                 RegionComponent.prototype.ngOnInit = function () {
                     this.name = this._routeParams.get('name');
                     console.log("ngOnInit RegionComponent");
+                    if (!this.GeographicalCountries) {
+                        this.getGetRegionBarChartData();
+                    }
+                };
+                RegionComponent.prototype.getGetRegionBarChartData = function () {
+                    var _this = this;
+                    console.log('RegionComponent:getData starting...');
+                    this._snakeDataService
+                        .GetRegionBarChartData(this.name)
+                        .subscribe(function (data) { return _this.setReturnedData(data); }, function (error) { return console.log(error); }, function () { return console.log('Get GeographicalCountries completed for region'); });
                 };
                 RegionComponent.prototype.setReturnedData = function (data) {
                     this.GeographicalCountries = data;
