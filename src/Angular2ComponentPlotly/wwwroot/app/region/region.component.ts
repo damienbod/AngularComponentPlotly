@@ -4,6 +4,7 @@ import { RouteParams, Router, ROUTER_DIRECTIVES } from 'angular2/router';
 
 import { Observable }       from 'rxjs/Observable';
 
+import { PlotlyComponent } from '../plotly/plotly.component';
 import { SnakeDataService } from '../services/SnakeDataService';
 import { GeographicalRegion } from '../models/GeographicalRegion';
 import { GeographicalCountries } from '../models/GeographicalCountries';
@@ -12,7 +13,7 @@ import { BarTrace } from '../models/BarTrace';
 @Component({
     selector: 'region',
     templateUrl: 'app/region/region.component.html',
-    directives: [CORE_DIRECTIVES, ROUTER_DIRECTIVES]
+    directives: [CORE_DIRECTIVES, ROUTER_DIRECTIVES, PlotlyComponent]
 })
 
 export class RegionComponent implements OnInit {

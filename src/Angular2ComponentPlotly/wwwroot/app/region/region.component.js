@@ -1,4 +1,4 @@
-System.register(['angular2/core', 'angular2/common', 'angular2/router', '../services/SnakeDataService'], function(exports_1, context_1) {
+System.register(['angular2/core', 'angular2/common', 'angular2/router', '../plotly/plotly.component', '../services/SnakeDataService'], function(exports_1, context_1) {
     "use strict";
     var __moduleName = context_1 && context_1.id;
     var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -10,7 +10,7 @@ System.register(['angular2/core', 'angular2/common', 'angular2/router', '../serv
     var __metadata = (this && this.__metadata) || function (k, v) {
         if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
     };
-    var core_1, common_1, router_1, SnakeDataService_1;
+    var core_1, common_1, router_1, plotly_component_1, SnakeDataService_1;
     var RegionComponent;
     return {
         setters:[
@@ -22,6 +22,9 @@ System.register(['angular2/core', 'angular2/common', 'angular2/router', '../serv
             },
             function (router_1_1) {
                 router_1 = router_1_1;
+            },
+            function (plotly_component_1_1) {
+                plotly_component_1 = plotly_component_1_1;
             },
             function (SnakeDataService_1_1) {
                 SnakeDataService_1 = SnakeDataService_1_1;
@@ -75,7 +78,7 @@ System.register(['angular2/core', 'angular2/common', 'angular2/router', '../serv
                     core_1.Component({
                         selector: 'region',
                         templateUrl: 'app/region/region.component.html',
-                        directives: [common_1.CORE_DIRECTIVES, router_1.ROUTER_DIRECTIVES]
+                        directives: [common_1.CORE_DIRECTIVES, router_1.ROUTER_DIRECTIVES, plotly_component_1.PlotlyComponent]
                     }), 
                     __metadata('design:paramtypes', [SnakeDataService_1.SnakeDataService, router_1.RouteParams, router_1.Router])
                 ], RegionComponent);
