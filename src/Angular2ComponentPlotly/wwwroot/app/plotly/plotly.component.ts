@@ -19,6 +19,7 @@ export class PlotlyComponent implements OnInit {
     @Input() data: any;
     @Input() layout: any;
     @Input() options: any;
+    @Input() displayRawData: boolean;
 
     ngOnInit() {
         console.log("ngOnInit PlotlyComponent");

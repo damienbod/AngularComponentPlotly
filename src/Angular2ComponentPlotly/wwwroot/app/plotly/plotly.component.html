@@ -1,11 +1,20 @@
-<!--data: 
-<hr/>
-<span>{{data | json}}</span>
-<hr />
-layout: 
-<hr />
-<span>{{data | json}}</span>
-<hr />-->
-
 <!--https://plot.ly/javascript/bar-charts/-->
-<div id="myPlotlyDiv" name="myPlotlyDiv" style="width: 480px; height: 400px;"><!-- Plotly chart will be drawn inside this DIV --></div>
+<div style="margin-bottom:100px;">
+    <div id="myPlotlyDiv"
+         name="myPlotlyDiv"
+         style="width: 480px; height: 400px;">
+        <!-- Plotly chart will be drawn inside this DIV -->
+    </div>
+</div>
+
+
+<div *ngIf="displayRawData">
+    raw data:
+    <hr />
+    <span>{{data | json}}</span>
+    <hr />
+    layout:
+    <hr />
+    <span>{{layout | json}}</span>
+    <hr />
+</div>

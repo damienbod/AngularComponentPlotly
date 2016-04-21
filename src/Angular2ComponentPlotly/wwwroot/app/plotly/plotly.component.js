@@ -45,6 +45,10 @@ System.register(['angular2/core', 'angular2/common', 'angular2/router'], functio
                     core_1.Input(), 
                     __metadata('design:type', Object)
                 ], PlotlyComponent.prototype, "options", void 0);
+                __decorate([
+                    core_1.Input(), 
+                    __metadata('design:type', Boolean)
+                ], PlotlyComponent.prototype, "displayRawData", void 0);
                 PlotlyComponent = __decorate([
                     core_1.Component({
                         selector: 'plotlychart',
