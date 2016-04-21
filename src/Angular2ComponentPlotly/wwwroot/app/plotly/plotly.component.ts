@@ -8,7 +8,26 @@ declare var Plotly: any;
 
 @Component({
     selector: 'plotlychart',
-    templateUrl: 'app/plotly/plotly.component.html',
+    template: `
+<div style="margin-bottom:100px;">
+    <div id="myPlotlyDiv"
+         name="myPlotlyDiv"
+         style="width: 480px; height: 400px;">
+        <!-- Plotly chart will be drawn inside this DIV -->
+    </div>
+</div>
+
+<div *ngIf="displayRawData">
+    raw data:
+    <hr />
+    <span>{{data | json}}</span>
+    <hr />
+    layout:
+    <hr />
+    <span>{{layout | json}}</span>
+    <hr />
+</div>
+`,
     directives: [CORE_DIRECTIVES, ROUTER_DIRECTIVES]
 })
 

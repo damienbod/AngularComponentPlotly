@@ -52,7 +52,7 @@ System.register(['angular2/core', 'angular2/common', 'angular2/router'], functio
                 PlotlyComponent = __decorate([
                     core_1.Component({
                         selector: 'plotlychart',
-                        templateUrl: 'app/plotly/plotly.component.html',
+                        template: "\n<div style=\"margin-bottom:100px;\">\n    <div id=\"myPlotlyDiv\"\n         name=\"myPlotlyDiv\"\n         style=\"width: 480px; height: 400px;\">\n        <!-- Plotly chart will be drawn inside this DIV -->\n    </div>\n</div>\n\n<div *ngIf=\"displayRawData\">\n    raw data:\n    <hr />\n    <span>{{data | json}}</span>\n    <hr />\n    layout:\n    <hr />\n    <span>{{layout | json}}</span>\n    <hr />\n</div>\n",
                         directives: [common_1.CORE_DIRECTIVES, router_1.ROUTER_DIRECTIVES]
                     }), 
                     __metadata('design:paramtypes', [])
