@@ -25,6 +25,6 @@
     "devDependencies": {
         "jquery": "^2.2.0",
         "typescript": "1.8.10",
-        "typings": "0.7.11"
+        "typings": "0.8.1"
     }
 }
