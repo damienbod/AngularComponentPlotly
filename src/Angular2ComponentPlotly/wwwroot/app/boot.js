@@ -1,7 +1,7 @@
-System.register(['angular2/platform/browser', 'angular2/router', 'angular2/http', 'angular2/core', './app.component', './app.constants'], function(exports_1, context_1) {
+System.register(['angular2/platform/browser', 'angular2/router', 'angular2/http', './app.component', './app.constants'], function(exports_1, context_1) {
     "use strict";
     var __moduleName = context_1 && context_1.id;
-    var browser_1, router_1, http_1, core_1, app_component_1, app_constants_1;
+    var browser_1, router_1, http_1, app_component_1, app_constants_1;
     return {
         setters:[
             function (browser_1_1) {
@@ -12,9 +12,6 @@ System.register(['angular2/platform/browser', 'angular2/router', 'angular2/http'
             },
             function (http_1_1) {
                 http_1 = http_1_1;
-            },
-            function (core_1_1) {
-                core_1 = core_1_1;
             },
             function (app_component_1_1) {
                 app_component_1 = app_component_1_1;
@@ -27,7 +24,6 @@ System.register(['angular2/platform/browser', 'angular2/router', 'angular2/http'
                 router_1.ROUTER_PROVIDERS,
                 http_1.HTTP_PROVIDERS,
                 app_constants_1.Configuration,
-                core_1.provide(router_1.LocationStrategy, { useClass: router_1.HashLocationStrategy })
             ]).catch(function (err) { return console.error(err); });
         }
     }
