@@ -7,7 +7,7 @@ import { GeographicalRegion } from './models/GeographicalRegion';
 import { GeographicalCountries } from './models/GeographicalCountries';
 
 @Injectable()
-export class SnakeDataServiceService {
+export class SnakeDataService {
 
     private actionUrl: string;
     private headers: Headers;
