@@ -14,6 +14,7 @@ import { SnakeDataService } from '../snake-data.service';
   styleUrls: ['overview.component.css'],
   directives: [CORE_DIRECTIVES, ROUTER_DIRECTIVES]
 })
+
 export class OverviewComponent implements OnInit {
 
     public message: string;
@@ -38,5 +39,4 @@ export class OverviewComponent implements OnInit {
             error => console.log(error),
             () => console.log('OverviewComponent:getData:Get all completed'));
     }
-
 }
