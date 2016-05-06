@@ -1,3 +1,8 @@
-<p>
-  region works!
-</p>
+<div *ngIf="PlotlyData">
+    <plotlychart 
+          [data]="PlotlyData"  
+          [layout]="PlotlyLayout" 
+          [options]="PlotlyOptions" 
+          [displayRawData]="true">
+    </plotlychart>
+</div>
