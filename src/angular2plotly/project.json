@@ -1,0 +1,25 @@
+﻿{
+    "version": "1.0.0-*",
+    "compilationOptions": {
+        "emitEntryPoint": true
+    },
+
+    "dependencies": {
+
+    },
+    "commands": {
+        "web": "Microsoft.AspNet.Server.Kestrel"
+    },
+    "frameworks": {
+        "dnxcore50": { }
+    },
+
+    "exclude": [
+        "wwwroot",
+        "node_modules"
+    ],
+    "publishExclude": [
+        "**.user",
+        "**.vspscc"
+    ]
+}
