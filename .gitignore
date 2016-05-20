@@ -6,3 +6,6 @@ src/angular2plotly/dist
 src/angular2plotly/angular2plotly.xproj.user
 src/angular2plotly/project.lock.json
 src/angular2plotly/tmp
+src/Angular2ComponentPlotly/bin/Debug/netcoreapp1.0/Angular2ComponentPlotly.runtimeconfig.dev.json
+src/Angular2ComponentPlotly/bin
+src/Angular2ComponentPlotly/obj

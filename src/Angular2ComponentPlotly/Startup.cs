@@ -1,15 +1,15 @@
-﻿using Microsoft.AspNet.Builder;
-using Microsoft.AspNet.Hosting;
-using Microsoft.Extensions.Configuration;
-using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Logging;
-using AngularPlotlyAspNetCore.Providers;
+﻿using AngularPlotlyAspNetCore.Providers;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Microsoft.AspNet.Http;
 using System.IO;
+using Microsoft.AspNetCore.Builder;
+using Microsoft.AspNetCore.Hosting;
+using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Logging;
+using Microsoft.AspNetCore.Http;
 
 namespace AngularPlotlyAspNetCore
 {
@@ -17,12 +17,15 @@ namespace AngularPlotlyAspNetCore
     {
         public Startup(IHostingEnvironment env)
         {
-            // Set up configuration sources.
-            var builder = new ConfigurationBuilder().AddJsonFile("appsettings.json");
-
+            var builder = new ConfigurationBuilder()
+                .SetBasePath(env.ContentRootPath)
+                .AddJsonFile("appsettings.json", optional: true, reloadOnChange: true)
+                .AddJsonFile($"appsettings.{env.EnvironmentName}.json", optional: true)
+                .AddEnvironmentVariables();
             Configuration = builder.Build();
         }
 
+        
         public IConfigurationRoot Configuration { get; set; }
 
         // This method gets called by the runtime. Use this method to add services to the container.
@@ -31,7 +34,7 @@ namespace AngularPlotlyAspNetCore
             //Add Cors support to the service
             services.AddCors();
 
-            var policy = new Microsoft.AspNet.Cors.Infrastructure.CorsPolicy();
+            var policy = new Microsoft.AspNetCore.Cors.Infrastructure.CorsPolicy();
 
             policy.Headers.Add("*");
             policy.Methods.Add("*");
@@ -54,10 +57,8 @@ namespace AngularPlotlyAspNetCore
         {
             app.UseCors("corsGlobalPolicy");
 
-            loggerFactory.AddConsole(Configuration.GetSection("Logging"));
+            loggerFactory.AddConsole();
             loggerFactory.AddDebug();
-
-            app.UseIISPlatformHandler();
 
             var angularRoutes = new[] {
                 "/overview",
@@ -84,12 +85,20 @@ namespace AngularPlotlyAspNetCore
             });
             app.UseDefaultFiles();
 
-
             app.UseStaticFiles();
             app.UseMvc();
         }
 
-        // Entry point for the application.
-        public static void Main(string[] args) => WebApplication.Run<Startup>(args);
+        public static void Main(string[] args)
+        {
+            var host = new WebHostBuilder()
+                .UseKestrel()
+                .UseContentRoot(Directory.GetCurrentDirectory())
+                .UseIISIntegration()
+                .UseStartup<Startup>()
+                .Build();
+
+            host.Run();
+        }
     }
 }

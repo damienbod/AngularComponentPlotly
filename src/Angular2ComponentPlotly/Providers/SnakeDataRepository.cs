@@ -10,7 +10,7 @@ using ElasticsearchCRUD.ContextSearch.SearchModel.AggModel.Buckets;
 using ElasticsearchCRUD.Model.SearchModel;
 using ElasticsearchCRUD.Model.SearchModel.Aggregations;
 using ElasticsearchCRUD.Model.SearchModel.Queries;
-using Microsoft.Extensions.OptionsModel;
+using Microsoft.Extensions.Options;
 using Newtonsoft.Json;
 
 namespace AngularPlotlyAspNetCore.Providers
@@ -35,6 +35,7 @@ namespace AngularPlotlyAspNetCore.Providers
             List<GeographicalRegion> geographicalRegions = new List<GeographicalRegion>();
             var search = new Search
             {
+                Size = 0,
                 Aggs = new List<IAggs>
                 {
                     new TermsBucketAggregation("getgeographicalregions", "geographicalregion")
@@ -50,12 +51,7 @@ namespace AngularPlotlyAspNetCore.Providers
 
             using (var context = new ElasticsearchContext(_connectionString, _elasticsearchMappingResolver))
             {
-                var items = context.Search<SnakeBites>(
-                    search,
-                    new SearchUrlParameters
-                    {
-                        SeachType = SeachType.count
-                    });
+                var items = context.Search<SnakeBites>(search);
 
                 try
                 {

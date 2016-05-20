@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 using AngularPlotlyAspNetCore.Models;
-using Microsoft.AspNet.Mvc;
+using Microsoft.AspNetCore.Mvc;
 
 namespace AngularPlotlyAspNetCore.Controllers
 {
