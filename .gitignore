@@ -9,3 +9,5 @@ src/angular2plotly/tmp
 src/Angular2ComponentPlotly/bin/Debug/netcoreapp1.0/Angular2ComponentPlotly.runtimeconfig.dev.json
 src/Angular2ComponentPlotly/bin
 src/Angular2ComponentPlotly/obj
+.vs/config/applicationhost.config
+src/Angular2ComponentPlotly/project.lock.json
