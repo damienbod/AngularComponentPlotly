@@ -4,6 +4,6 @@ export class Angular2plotlyPage {
   }
 
   getParagraphText() {
-    return element(by.css('angular2plotly-app h1')).getText();
+    return element(by.css('app-root h1')).getText();
   }
 }
