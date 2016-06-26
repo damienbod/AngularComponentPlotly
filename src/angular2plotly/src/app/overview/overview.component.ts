@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { CORE_DIRECTIVES } from '@angular/common';
 import { Observable }       from 'rxjs/Observable';
-import { Router, RouteConfig, ROUTER_DIRECTIVES, ROUTER_PROVIDERS }  from  '@angular/router-deprecated';
+import { Router, ROUTER_DIRECTIVES } from '@angular/router';
 import { Http } from '@angular/http';
 import { GeographicalRegion } from '../models/GeographicalRegion';
 import { RegionComponent } from '../region/region.component';

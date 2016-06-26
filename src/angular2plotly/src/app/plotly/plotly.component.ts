@@ -2,7 +2,7 @@ import { Component, EventEmitter, Input, Output, OnInit, ElementRef} from '@angu
 import { CORE_DIRECTIVES } from '@angular/common';
 import { Subscription } from 'rxjs/Subscription';
 import { Observable } from 'rxjs/Observable';
-import { Router, ROUTER_DIRECTIVES } from  '@angular/router-deprecated';
+import { Router, ROUTER_DIRECTIVES } from  '@angular/router';
 
 declare var Plotly: any;
 

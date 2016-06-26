@@ -1,6 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, OnDestroy } from '@angular/core';
+import { Router, ActivatedRoute } from '@angular/router';
 import { CORE_DIRECTIVES } from '@angular/common';
-import { RouteParams, Router, ROUTER_DIRECTIVES }  from  '@angular/router-deprecated';
 
 import { Observable }  from 'rxjs/Observable';
 
@@ -15,12 +15,14 @@ import { BarTrace } from '../models/BarTrace';
   selector: 'app-region',
   templateUrl: 'region.component.html',
   styleUrls: ['region.component.css'],
-  directives: [CORE_DIRECTIVES, ROUTER_DIRECTIVES, PlotlyComponent]
+  directives: [CORE_DIRECTIVES, PlotlyComponent]
 })
 
-export class RegionComponent implements OnInit {
+export class RegionComponent implements OnInit, OnDestroy   {
 
+    private id: number;
     public message: string;
+    private sub: any;
     public GeographicalCountries: GeographicalCountries;
 
     private name: string;
@@ -30,18 +32,24 @@ export class RegionComponent implements OnInit {
 
     constructor(
         private _snakeDataService: SnakeDataService,
-        private _routeParams: RouteParams,
+        private _route: ActivatedRoute,
         private _router: Router
     ) {
         this.message = "region";
     }
 
-    ngOnInit() {
-        this.name = this._routeParams.get('name');
-        console.log("ngOnInit RegionComponent");
-        if (!this.GeographicalCountries) {
+	ngOnInit() {     
+
+        this.sub = this._route.params.subscribe(params => {
+            this.name = params['name']; 
+            if (!this.GeographicalCountries) {
             this.getGetRegionBarChartData();
-        }
+        } 
+        });      
+    }
+
+    ngOnDestroy() {
+        this.sub.unsubscribe();
     }
 
     private getGetRegionBarChartData() {

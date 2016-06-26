@@ -1,8 +1,6 @@
 import { Component } from '@angular/core';
-import { RouteConfig, ROUTER_DIRECTIVES, ROUTER_PROVIDERS } from  '@angular/router-deprecated';
+import { ROUTER_DIRECTIVES } from  '@angular/router';
 
-import { OverviewComponent } from './overview/overview.component';
-import { RegionComponent } from './region/region.component';
 import { SnakeDataService } from './snake-data.service';
 
 @Component({
@@ -12,16 +10,10 @@ import { SnakeDataService } from './snake-data.service';
   styleUrls: ['angular2plotly.component.css'],
   directives: [ROUTER_DIRECTIVES],
     providers: [
-        ROUTER_PROVIDERS,
         SnakeDataService
     ]
 })
 
-@RouteConfig([
-        { path: '/overview', name: 'Overview', component: OverviewComponent },
-        { path: '/region/:name', name: 'Region', component: RegionComponent },
-])
- 
 export class Angular2plotlyAppComponent {
   title = 'angular2plotly works!';
 }
