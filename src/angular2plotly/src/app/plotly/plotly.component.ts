@@ -1,15 +1,13 @@
 import { Component, EventEmitter, Input, Output, OnInit, ElementRef} from '@angular/core';
-import { CORE_DIRECTIVES } from '@angular/common';
 import { Subscription } from 'rxjs/Subscription';
 import { Observable } from 'rxjs/Observable';
-import { Router, ROUTER_DIRECTIVES } from  '@angular/router';
+import { Router } from  '@angular/router';
 
 declare var Plotly: any;
 
 @Component({
-  moduleId: module.id,
   selector: 'plotlychart',
-   template: `
+  template: `
 <div style="margin-bottom:100px;">
     <div id="myPlotlyDiv"
          name="myPlotlyDiv"
@@ -29,9 +27,9 @@ declare var Plotly: any;
     <hr />
 </div>
 `,
-  styleUrls: ['plotly.component.css'],
-  directives: [CORE_DIRECTIVES, ROUTER_DIRECTIVES]
+  styleUrls: ['./plotly.component.css']
 })
+
 
 export class PlotlyComponent implements OnInit {
 

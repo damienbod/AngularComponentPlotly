@@ -1,6 +1,5 @@
 import { Component, OnInit, OnDestroy } from '@angular/core';
 import { Router, ActivatedRoute } from '@angular/router';
-import { CORE_DIRECTIVES } from '@angular/common';
 
 import { Observable }  from 'rxjs/Observable';
 
@@ -11,11 +10,9 @@ import { GeographicalCountries } from '../models/GeographicalCountries';
 import { BarTrace } from '../models/BarTrace';
 
 @Component({
-  moduleId: module.id,
   selector: 'app-region',
-  templateUrl: 'region.component.html',
-  styleUrls: ['region.component.css'],
-  directives: [CORE_DIRECTIVES, PlotlyComponent]
+  templateUrl: './region.component.html',
+  styleUrls: ['./region.component.css']
 })
 
 export class RegionComponent implements OnInit, OnDestroy   {

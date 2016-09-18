@@ -1,18 +1,15 @@
 import { Component, OnInit } from '@angular/core';
-import { CORE_DIRECTIVES } from '@angular/common';
 import { Observable }       from 'rxjs/Observable';
-import { Router, ROUTER_DIRECTIVES } from '@angular/router';
+import { Router } from '@angular/router';
 import { Http } from '@angular/http';
 import { GeographicalRegion } from '../models/GeographicalRegion';
 import { RegionComponent } from '../region/region.component';
 import { SnakeDataService } from '../snake-data.service';
 
 @Component({
-  moduleId: module.id,
   selector: 'app-overview',
-  templateUrl: 'overview.component.html',
-  styleUrls: ['overview.component.css'],
-  directives: [CORE_DIRECTIVES, ROUTER_DIRECTIVES]
+  templateUrl: './overview.component.html',
+  styleUrls: ['./overview.component.css']
 })
 
 export class OverviewComponent implements OnInit {
