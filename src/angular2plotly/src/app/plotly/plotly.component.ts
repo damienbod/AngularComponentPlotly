@@ -1,50 +1,15 @@
-import { Component, EventEmitter, Input, Output, OnInit, ElementRef} from '@angular/core';
-import { CORE_DIRECTIVES } from '@angular/common';
-import { Subscription } from 'rxjs/Subscription';
-import { Observable } from 'rxjs/Observable';
-import { Router, ROUTER_DIRECTIVES } from  '@angular/router';
-
-declare var Plotly: any;
+import { Component, OnInit } from '@angular/core';
 
 @Component({
-  moduleId: module.id,
-  selector: 'plotlychart',
-   template: `
-<div style="margin-bottom:100px;">
-    <div id="myPlotlyDiv"
-         name="myPlotlyDiv"
-         style="width: 480px; height: 400px;">
-        <!-- Plotly chart will be drawn inside this DIV -->
-    </div>
-</div>
-
-<div *ngIf="displayRawData">
-    raw data:
-    <hr />
-    <span>{{data | json}}</span>
-    <hr />
-    layout:
-    <hr />
-    <span>{{layout | json}}</span>
-    <hr />
-</div>
-`,
-  styleUrls: ['plotly.component.css'],
-  directives: [CORE_DIRECTIVES, ROUTER_DIRECTIVES]
+  selector: 'app-plotly',
+  templateUrl: './plotly.component.html',
+  styleUrls: ['./plotly.component.css']
 })
-
 export class PlotlyComponent implements OnInit {
 
-    @Input() data: any;
-    @Input() layout: any;
-    @Input() options: any;
-    @Input() displayRawData: boolean;
+  constructor() { }
 
-    ngOnInit() {
-        console.log("ngOnInit PlotlyComponent");
-        console.log(this.data);
-        console.log(this.layout);
+  ngOnInit() {
+  }
 
-        Plotly.newPlot('myPlotlyDiv', this.data, this.layout, this.options);
-    }
 }

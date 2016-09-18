@@ -1,2 +1,2 @@
-export {environment} from './environment';
-export {Angular2plotlyAppComponent} from './angular2plotly.component';
+export * from './app.component';
+export * from './app.module';
