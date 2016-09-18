@@ -1,3 +1,18 @@
-<p>
-  overview works!
-</p>
+<div class="panel-group" *ngIf="GeographicalRegions">
+
+    <div class="mcbutton col-md-4" style="margin-left: -15px; margin-bottom: 10px;"  *ngFor="let geographicalRegion of GeographicalRegions" >
+	
+	      
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					<i class="fa fa-ban" style="color: red; margin-right: 20px;" ng-show="geographicalRegion.DangerHigh"></i>
+					<a href="" [routerLink]="['/region/' + geographicalRegion.Name]" >{{geographicalRegion.Name}}</a>, Countries: {{geographicalRegion.Countries}}
+				</div>
+				<div class="panel-body" style="height: 100px;">
+					<!--<img src="images/mc1.jpg" style="width: 100%;margin-top: 20px;" />-->
+					Deaths 2007: {{geographicalRegion.NumberOfDeathsHigh}}
+				</div>
+			</div>
+		
+    </div>
+</div>
