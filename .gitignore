@@ -12,3 +12,6 @@ src/Angular2ComponentPlotly/obj
 .vs/config/applicationhost.config
 src/Angular2ComponentPlotly/project.lock.json
 src/angular2plotly.old/
+src/AspNetCoreService/obj
+src/AspNetCoreService/bin
+.vs/AngularComponentPlotly/v15/.suo
